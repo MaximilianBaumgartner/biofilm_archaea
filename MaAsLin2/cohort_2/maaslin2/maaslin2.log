@@ -1,0 +1,484 @@
+2024-04-14 21:38:07.395692 INFO::Writing function arguments to log file
+2024-04-14 21:38:07.39759 DEBUG::Function arguments
+2024-04-14 21:38:07.398929 DEBUG::Output folder: maaslin2
+2024-04-14 21:38:07.400298 DEBUG::Min Abundance: 0.000100
+2024-04-14 21:38:07.401991 DEBUG::Min Prevalence: 0.100000
+2024-04-14 21:38:07.403824 DEBUG::Normalization: TSS
+2024-04-14 21:38:07.405482 DEBUG::Transform: LOG
+2024-04-14 21:38:07.407552 DEBUG::Analysis method: LM
+2024-04-14 21:38:07.409246 DEBUG::Max significance: 0.250000
+2024-04-14 21:38:07.410758 DEBUG::Random effects:
+2024-04-14 21:38:07.412253 DEBUG::Fixed effects: Sample_classification,Disease,Archaea_final
+2024-04-14 21:38:07.413654 DEBUG::Correction method: BH
+2024-04-14 21:38:07.415207 DEBUG::Standardize: TRUE
+2024-04-14 21:38:07.416631 DEBUG::Cores: 1
+2024-04-14 21:38:07.417895 INFO::Verifying options selected are valid
+2024-04-14 21:38:07.420026 INFO::Determining format of input files
+2024-04-14 21:38:07.422057 INFO::Input format is data samples as columns and metadata samples as rows
+2024-04-14 21:38:07.430569 DEBUG::Transformed data so samples are rows
+2024-04-14 21:38:07.435094 DEBUG::The following samples were found to have features but no metadata. They will be removed. Fx111_S55,Fx112_S66
+2024-04-14 21:38:07.437301 DEBUG::A total of 76 samples were found in both the data and metadata
+2024-04-14 21:38:07.439251 DEBUG::Reordering data/metadata to use same sample ordering
+2024-04-14 21:38:07.450137 INFO::Formula for fixed effects: expr ~  Sample_classification + Disease + Archaea_final
+2024-04-14 21:38:07.45472 INFO::Filter data based on min abundance and min prevalence
+2024-04-14 21:38:07.458047 INFO::Total samples in data: 76
+2024-04-14 21:38:07.460759 INFO::Min samples required with min abundance for a feature not to be filtered: 7.600000
+2024-04-14 21:38:07.476687 INFO::Total filtered features: 1139
+2024-04-14 21:38:07.480412 INFO::Filtered feature names from abundance and prevalence filtering: g__OTU_100, g__OTU_1000, g__OTU_1001, g__OTU_1002, g__OTU_1004, g__OTU_1005, g__OTU_1006, g__OTU_1007, g__OTU_1008, g__OTU_1009, g__OTU_1010, g__OTU_1011, g__OTU_1012, g__OTU_1013, g__OTU_1014, g__OTU_1015, g__OTU_1016, g__OTU_1017, g__OTU_1018, g__OTU_1019, g__OTU_102, g__OTU_1020, g__OTU_1021, g__OTU_1022, g__OTU_1023, g__OTU_1024, g__OTU_1025, g__OTU_1026, g__OTU_1027, g__OTU_1028, g__OTU_1029, g__OTU_103, g__OTU_1030, g__OTU_1031, g__OTU_1032, g__OTU_1033, g__OTU_1034, g__OTU_1035, g__OTU_1036, g__OTU_1037, g__OTU_1038, g__OTU_104, g__OTU_1040, g__OTU_1041, g__OTU_1042, g__OTU_1043, g__OTU_1044, g__OTU_1045, g__OTU_1046, g__OTU_1047, g__OTU_1048, g__OTU_1049, g__OTU_105, g__OTU_1050, g__OTU_1051, g__OTU_1052, g__OTU_1053, g__OTU_1054, g__OTU_1055, g__OTU_1056, g__OTU_1057, g__OTU_1058, g__OTU_1059, g__OTU_106, g__OTU_1060, g__OTU_1061, g__OTU_1062, g__OTU_1063, g__OTU_1064, g__OTU_1066, g__OTU_1067, g__OTU_1068, g__OTU_1069, g__OTU_107, g__OTU_1071, g__OTU_1072, g__OTU_1073, g__OTU_1074, g__OTU_1075, g__OTU_1076, g__OTU_1077, g__OTU_108, g__OTU_1080, g__OTU_1081, g__OTU_1083, g__OTU_1084, g__OTU_1085, g__OTU_1086, g__OTU_1087, g__OTU_1088, g__OTU_1089, g__OTU_1090, g__OTU_1091, g__OTU_1092, g__OTU_1093, g__OTU_1094, g__OTU_1095, g__OTU_1096, g__OTU_1097, g__OTU_1098, g__OTU_1099, g__OTU_1100, g__OTU_1101, g__OTU_1102, g__OTU_1103, g__OTU_1104, g__OTU_1105, g__OTU_1106, g__OTU_1107, g__OTU_1108, g__OTU_1109, g__OTU_111, g__OTU_1110, g__OTU_1111, g__OTU_1112, g__OTU_1113, g__OTU_1114, g__OTU_1115, g__OTU_1116, g__OTU_1117, g__OTU_1118, g__OTU_1119, g__OTU_112, g__OTU_1120, g__OTU_1121, g__OTU_1122, g__OTU_1123, g__OTU_1124, g__OTU_1125, g__OTU_1126, g__OTU_1127, g__OTU_1128, g__OTU_1129, g__OTU_113, g__OTU_1130, g__OTU_1131, g__OTU_1132, g__OTU_1133, g__OTU_1134, g__OTU_1135, g__OTU_1136, g__OTU_1137, g__OTU_1138, g__OTU_1139, g__OTU_114, g__OTU_1140, g__OTU_1141, g__OTU_1142, g__OTU_1143, g__OTU_1144, g__OTU_1145, g__OTU_1146, g__OTU_1147, g__OTU_1148, g__OTU_1149, g__OTU_115, g__OTU_1150, g__OTU_1151, g__OTU_1152, g__OTU_1153, g__OTU_1154, g__OTU_1156, g__OTU_1157, g__OTU_1158, g__OTU_1159, g__OTU_116, g__OTU_1160, g__OTU_1161, g__OTU_1162, g__OTU_1163, g__OTU_1164, g__OTU_1165, g__OTU_1166, g__OTU_1167, g__OTU_1168, g__OTU_1169, g__OTU_117, g__OTU_1170, g__OTU_1171, g__OTU_1172, g__OTU_1173, g__OTU_1174, g__OTU_1175, g__OTU_1176, g__OTU_1177, g__OTU_1179, g__OTU_118, g__OTU_1180, g__OTU_1181, g__OTU_1182, g__OTU_1183, g__OTU_1184, g__OTU_1185, g__OTU_1186, g__OTU_1187, g__OTU_1188, g__OTU_1189, g__OTU_119, g__OTU_1190, g__OTU_1191, g__OTU_1192, g__OTU_1193, g__OTU_1194, g__OTU_1195, g__OTU_1196, g__OTU_1197, g__OTU_1198, g__OTU_1199, g__OTU_120, g__OTU_1200, g__OTU_1201, g__OTU_1202, g__OTU_1203, g__OTU_1204, g__OTU_1205, g__OTU_1206, g__OTU_1207, g__OTU_1208, g__OTU_1209, g__OTU_121, g__OTU_1210, g__OTU_1211, g__OTU_1212, g__OTU_1213, g__OTU_1214, g__OTU_1215, g__OTU_1216, g__OTU_1217, g__OTU_1218, g__OTU_1219, g__OTU_122, g__OTU_1220, g__OTU_1221, g__OTU_1222, g__OTU_1223, g__OTU_1224, g__OTU_1225, g__OTU_1226, g__OTU_1227, g__OTU_1228, g__OTU_1229, g__OTU_123, g__OTU_1230, g__OTU_1231, g__OTU_1232, g__OTU_1233, g__OTU_1234, g__OTU_1235, g__OTU_1236, g__OTU_1237, g__OTU_1238, g__OTU_1239, g__OTU_124, g__OTU_1240, g__OTU_1241, g__OTU_1242, g__OTU_1243, g__OTU_1244, g__OTU_1245, g__OTU_1246, g__OTU_1247, g__OTU_1248, g__OTU_1249, g__OTU_125, g__OTU_1250, g__OTU_1251, g__OTU_1252, g__OTU_1253, g__OTU_1254, g__OTU_1255, g__OTU_1256, g__OTU_1257, g__OTU_1258, g__OTU_1259, g__OTU_1260, g__OTU_1261, g__OTU_1262, g__OTU_1263, g__OTU_1264, g__OTU_1266, g__OTU_1267, g__OTU_1268, g__OTU_1269, g__OTU_127, g__OTU_1270, g__OTU_1271, g__OTU_1272, g__OTU_1273, g__OTU_1274, g__OTU_1275, g__OTU_1276, g__OTU_1277, g__OTU_1278, g__OTU_1279, g__OTU_1280, g__OTU_1281, g__OTU_1282, g__OTU_1283, g__OTU_1284, g__OTU_1285, g__OTU_1286, g__OTU_1287, g__OTU_1288, g__OTU_1289, g__OTU_129, g__OTU_1290, g__OTU_1291, g__OTU_1292, g__OTU_1293, g__OTU_1294, g__OTU_1295, g__OTU_1296, g__OTU_1297, g__OTU_1298, g__OTU_1299, g__OTU_1300, g__OTU_1301, g__OTU_1302, g__OTU_1303, g__OTU_1304, g__OTU_1305, g__OTU_1306, g__OTU_1307, g__OTU_1308, g__OTU_1309, g__OTU_131, g__OTU_1310, g__OTU_1311, g__OTU_1312, g__OTU_1313, g__OTU_1314, g__OTU_1315, g__OTU_1316, g__OTU_1317, g__OTU_1318, g__OTU_1319, g__OTU_1320, g__OTU_1321, g__OTU_1322, g__OTU_1323, g__OTU_1324, g__OTU_1325, g__OTU_1326, g__OTU_1327, g__OTU_1328, g__OTU_1329, g__OTU_133, g__OTU_1330, g__OTU_1331, g__OTU_1332, g__OTU_1333, g__OTU_1334, g__OTU_1335, g__OTU_1336, g__OTU_1337, g__OTU_1338, g__OTU_1339, g__OTU_1342, g__OTU_1343, g__OTU_1344, g__OTU_1345, g__OTU_1346, g__OTU_1347, g__OTU_1348, g__OTU_1349, g__OTU_1350, g__OTU_1351, g__OTU_1352, g__OTU_1353, g__OTU_1354, g__OTU_1355, g__OTU_1356, g__OTU_1357, g__OTU_1358, g__OTU_1359, g__OTU_136, g__OTU_1360, g__OTU_1362, g__OTU_1363, g__OTU_1364, g__OTU_1365, g__OTU_1366, g__OTU_1367, g__OTU_1368, g__OTU_1369, g__OTU_137, g__OTU_1370, g__OTU_1371, g__OTU_1372, g__OTU_1373, g__OTU_1374, g__OTU_1375, g__OTU_1376, g__OTU_1377, g__OTU_1378, g__OTU_1379, g__OTU_138, g__OTU_1380, g__OTU_1381, g__OTU_1382, g__OTU_1383, g__OTU_1384, g__OTU_1385, g__OTU_1386, g__OTU_1387, g__OTU_1388, g__OTU_1389, g__OTU_1390, g__OTU_1391, g__OTU_1392, g__OTU_1393, g__OTU_1394, g__OTU_1395, g__OTU_1396, g__OTU_1397, g__OTU_1398, g__OTU_1399, g__OTU_140, g__OTU_1400, g__OTU_1401, g__OTU_1402, g__OTU_1403, g__OTU_1404, g__OTU_1405, g__OTU_1406, g__OTU_1407, g__OTU_1408, g__OTU_1409, g__OTU_141, g__OTU_1410, g__OTU_1411, g__OTU_1412, g__OTU_1413, g__OTU_1414, g__OTU_1415, g__OTU_1416, g__OTU_1417, g__OTU_1418, g__OTU_1419, g__OTU_142, g__OTU_1420, g__OTU_1421, g__OTU_1422, g__OTU_1423, g__OTU_1424, g__OTU_1425, g__OTU_1426, g__OTU_1429, g__OTU_143, g__OTU_1430, g__OTU_1431, g__OTU_1432, g__OTU_1433, g__OTU_1434, g__OTU_1435, g__OTU_1436, g__OTU_1437, g__OTU_1438, g__OTU_1439, g__OTU_144, g__OTU_1440, g__OTU_1441, g__OTU_1442, g__OTU_1443, g__OTU_1444, g__OTU_1445, g__OTU_1446, g__OTU_1447, g__OTU_1448, g__OTU_1449, g__OTU_145, g__OTU_1450, g__OTU_1451, g__OTU_1452, g__OTU_1453, g__OTU_1454, g__OTU_1455, g__OTU_1456, g__OTU_1457, g__OTU_1458, g__OTU_1459, g__OTU_146, g__OTU_1460, g__OTU_1461, g__OTU_1462, g__OTU_1463, g__OTU_1464, g__OTU_1465, g__OTU_1466, g__OTU_1467, g__OTU_1468, g__OTU_1469, g__OTU_147, g__OTU_1470, g__OTU_1471, g__OTU_1472, g__OTU_1473, g__OTU_1474, g__OTU_1475, g__OTU_1476, g__OTU_1477, g__OTU_1478, g__OTU_1479, g__OTU_148, g__OTU_1480, g__OTU_1481, g__OTU_1482, g__OTU_1483, g__OTU_1484, g__OTU_1485, g__OTU_1486, g__OTU_1487, g__OTU_1488, g__OTU_1489, g__OTU_149, g__OTU_1490, g__OTU_1491, g__OTU_1492, g__OTU_1493, g__OTU_1494, g__OTU_1495, g__OTU_1496, g__OTU_1497, g__OTU_1498, g__OTU_1499, g__OTU_150, g__OTU_1500, g__OTU_1501, g__OTU_1502, g__OTU_1503, g__OTU_1504, g__OTU_1505, g__OTU_1506, g__OTU_1507, g__OTU_1508, g__OTU_1509, g__OTU_151, g__OTU_1510, g__OTU_1511, g__OTU_1512, g__OTU_1513, g__OTU_152, g__OTU_1522, g__OTU_153, g__OTU_1531, g__OTU_154, g__OTU_155, g__OTU_156, g__OTU_160, g__OTU_163, g__OTU_165, g__OTU_167, g__OTU_172, g__OTU_174, g__OTU_175, g__OTU_176, g__OTU_177, g__OTU_178, g__OTU_179, g__OTU_18, g__OTU_180, g__OTU_182, g__OTU_183, g__OTU_184, g__OTU_185, g__OTU_186, g__OTU_187, g__OTU_188, g__OTU_189, g__OTU_190, g__OTU_191, g__OTU_192, g__OTU_193, g__OTU_194, g__OTU_195, g__OTU_196, g__OTU_197, g__OTU_199, g__OTU_20, g__OTU_200, g__OTU_201, g__OTU_202, g__OTU_203, g__OTU_204, g__OTU_205, g__OTU_206, g__OTU_207, g__OTU_208, g__OTU_210, g__OTU_211, g__OTU_212, g__OTU_213, g__OTU_215, g__OTU_216, g__OTU_217, g__OTU_218, g__OTU_219, g__OTU_220, g__OTU_221, g__OTU_222, g__OTU_223, g__OTU_224, g__OTU_225, g__OTU_226, g__OTU_228, g__OTU_229, g__OTU_230, g__OTU_231, g__OTU_232, g__OTU_233, g__OTU_235, g__OTU_236, g__OTU_237, g__OTU_239, g__OTU_240, g__OTU_243, g__OTU_245, g__OTU_246, g__OTU_247, g__OTU_249, g__OTU_250, g__OTU_251, g__OTU_252, g__OTU_253, g__OTU_254, g__OTU_256, g__OTU_258, g__OTU_259, g__OTU_26, g__OTU_260, g__OTU_263, g__OTU_264, g__OTU_265, g__OTU_266, g__OTU_267, g__OTU_27, g__OTU_270, g__OTU_271, g__OTU_272, g__OTU_273, g__OTU_275, g__OTU_276, g__OTU_277, g__OTU_278, g__OTU_279, g__OTU_282, g__OTU_283, g__OTU_284, g__OTU_286, g__OTU_287, g__OTU_288, g__OTU_289, g__OTU_290, g__OTU_291, g__OTU_292, g__OTU_293, g__OTU_297, g__OTU_298, g__OTU_300, g__OTU_301, g__OTU_302, g__OTU_303, g__OTU_304, g__OTU_305, g__OTU_306, g__OTU_307, g__OTU_309, g__OTU_311, g__OTU_312, g__OTU_313, g__OTU_314, g__OTU_315, g__OTU_316, g__OTU_318, g__OTU_319, g__OTU_323, g__OTU_325, g__OTU_330, g__OTU_331, g__OTU_332, g__OTU_336, g__OTU_338, g__OTU_339, g__OTU_34, g__OTU_340, g__OTU_346, g__OTU_347, g__OTU_349, g__OTU_35, g__OTU_351, g__OTU_352, g__OTU_357, g__OTU_359, g__OTU_36, g__OTU_361, g__OTU_362, g__OTU_368, g__OTU_37, g__OTU_375, g__OTU_379, g__OTU_38, g__OTU_382, g__OTU_386, g__OTU_387, g__OTU_39, g__OTU_393, g__OTU_396, g__OTU_398, g__OTU_40, g__OTU_402, g__OTU_403, g__OTU_405, g__OTU_406, g__OTU_407, g__OTU_409, g__OTU_41, g__OTU_410, g__OTU_411, g__OTU_412, g__OTU_414, g__OTU_417, g__OTU_42, g__OTU_420, g__OTU_421, g__OTU_422, g__OTU_423, g__OTU_424, g__OTU_425, g__OTU_429, g__OTU_43, g__OTU_432, g__OTU_437, g__OTU_438, g__OTU_44, g__OTU_442, g__OTU_445, g__OTU_448, g__OTU_449, g__OTU_45, g__OTU_453, g__OTU_457, g__OTU_459, g__OTU_461, g__OTU_463, g__OTU_468, g__OTU_47, g__OTU_470, g__OTU_471, g__OTU_474, g__OTU_475, g__OTU_477, g__OTU_479, g__OTU_48, g__OTU_482, g__OTU_483, g__OTU_487, g__OTU_489, g__OTU_495, g__OTU_496, g__OTU_499, g__OTU_500, g__OTU_501, g__OTU_502, g__OTU_503, g__OTU_504, g__OTU_505, g__OTU_506, g__OTU_508, g__OTU_51, g__OTU_511, g__OTU_512, g__OTU_513, g__OTU_514, g__OTU_515, g__OTU_518, g__OTU_524, g__OTU_53, g__OTU_533, g__OTU_534, g__OTU_538, g__OTU_542, g__OTU_543, g__OTU_55, g__OTU_551, g__OTU_553, g__OTU_56, g__OTU_568, g__OTU_569, g__OTU_57, g__OTU_570, g__OTU_572, g__OTU_58, g__OTU_582, g__OTU_586, g__OTU_587, g__OTU_588, g__OTU_593, g__OTU_596, g__OTU_597, g__OTU_599, g__OTU_600, g__OTU_601, g__OTU_602, g__OTU_604, g__OTU_606, g__OTU_607, g__OTU_608, g__OTU_609, g__OTU_61, g__OTU_612, g__OTU_613, g__OTU_614, g__OTU_615, g__OTU_62, g__OTU_625, g__OTU_629, g__OTU_63, g__OTU_630, g__OTU_631, g__OTU_633, g__OTU_634, g__OTU_636, g__OTU_637, g__OTU_64, g__OTU_640, g__OTU_642, g__OTU_644, g__OTU_645, g__OTU_646, g__OTU_648, g__OTU_649, g__OTU_65, g__OTU_650, g__OTU_651, g__OTU_652, g__OTU_653, g__OTU_654, g__OTU_655, g__OTU_656, g__OTU_657, g__OTU_659, g__OTU_660, g__OTU_662, g__OTU_664, g__OTU_665, g__OTU_666, g__OTU_667, g__OTU_668, g__OTU_669, g__OTU_67, g__OTU_670, g__OTU_671, g__OTU_672, g__OTU_673, g__OTU_674, g__OTU_675, g__OTU_676, g__OTU_677, g__OTU_678, g__OTU_679, g__OTU_68, g__OTU_680, g__OTU_681, g__OTU_682, g__OTU_683, g__OTU_684, g__OTU_686, g__OTU_687, g__OTU_690, g__OTU_691, g__OTU_692, g__OTU_693, g__OTU_695, g__OTU_697, g__OTU_698, g__OTU_699, g__OTU_701, g__OTU_702, g__OTU_705, g__OTU_706, g__OTU_707, g__OTU_708, g__OTU_709, g__OTU_71, g__OTU_710, g__OTU_712, g__OTU_713, g__OTU_714, g__OTU_716, g__OTU_718, g__OTU_72, g__OTU_721, g__OTU_722, g__OTU_723, g__OTU_725, g__OTU_726, g__OTU_727, g__OTU_728, g__OTU_729, g__OTU_73, g__OTU_730, g__OTU_731, g__OTU_732, g__OTU_733, g__OTU_734, g__OTU_737, g__OTU_738, g__OTU_74, g__OTU_742, g__OTU_744, g__OTU_745, g__OTU_746, g__OTU_747, g__OTU_748, g__OTU_75, g__OTU_750, g__OTU_751, g__OTU_752, g__OTU_754, g__OTU_756, g__OTU_757, g__OTU_758, g__OTU_759, g__OTU_76, g__OTU_760, g__OTU_763, g__OTU_764, g__OTU_765, g__OTU_767, g__OTU_768, g__OTU_77, g__OTU_771, g__OTU_772, g__OTU_773, g__OTU_774, g__OTU_775, g__OTU_776, g__OTU_778, g__OTU_779, g__OTU_781, g__OTU_782, g__OTU_783, g__OTU_784, g__OTU_785, g__OTU_787, g__OTU_788, g__OTU_792, g__OTU_793, g__OTU_794, g__OTU_796, g__OTU_797, g__OTU_798, g__OTU_799, g__OTU_80, g__OTU_801, g__OTU_802, g__OTU_803, g__OTU_806, g__OTU_809, g__OTU_81, g__OTU_810, g__OTU_811, g__OTU_812, g__OTU_813, g__OTU_816, g__OTU_817, g__OTU_82, g__OTU_820, g__OTU_821, g__OTU_822, g__OTU_823, g__OTU_824, g__OTU_825, g__OTU_828, g__OTU_829, g__OTU_83, g__OTU_830, g__OTU_831, g__OTU_832, g__OTU_833, g__OTU_835, g__OTU_837, g__OTU_838, g__OTU_839, g__OTU_840, g__OTU_841, g__OTU_842, g__OTU_843, g__OTU_844, g__OTU_845, g__OTU_846, g__OTU_847, g__OTU_848, g__OTU_849, g__OTU_85, g__OTU_850, g__OTU_852, g__OTU_854, g__OTU_856, g__OTU_857, g__OTU_858, g__OTU_859, g__OTU_860, g__OTU_861, g__OTU_862, g__OTU_863, g__OTU_864, g__OTU_866, g__OTU_867, g__OTU_868, g__OTU_869, g__OTU_87, g__OTU_870, g__OTU_871, g__OTU_872, g__OTU_874, g__OTU_876, g__OTU_877, g__OTU_878, g__OTU_879, g__OTU_880, g__OTU_881, g__OTU_882, g__OTU_884, g__OTU_886, g__OTU_887, g__OTU_888, g__OTU_889, g__OTU_89, g__OTU_890, g__OTU_891, g__OTU_893, g__OTU_894, g__OTU_895, g__OTU_896, g__OTU_897, g__OTU_898, g__OTU_899, g__OTU_90, g__OTU_900, g__OTU_901, g__OTU_902, g__OTU_903, g__OTU_904, g__OTU_907, g__OTU_908, g__OTU_909, g__OTU_91, g__OTU_910, g__OTU_911, g__OTU_913, g__OTU_916, g__OTU_917, g__OTU_918, g__OTU_919, g__OTU_92, g__OTU_920, g__OTU_921, g__OTU_922, g__OTU_923, g__OTU_924, g__OTU_925, g__OTU_926, g__OTU_927, g__OTU_928, g__OTU_929, g__OTU_93, g__OTU_930, g__OTU_931, g__OTU_932, g__OTU_933, g__OTU_934, g__OTU_935, g__OTU_936, g__OTU_937, g__OTU_938, g__OTU_939, g__OTU_94, g__OTU_940, g__OTU_941, g__OTU_942, g__OTU_943, g__OTU_944, g__OTU_945, g__OTU_946, g__OTU_947, g__OTU_948, g__OTU_949, g__OTU_950, g__OTU_951, g__OTU_952, g__OTU_953, g__OTU_954, g__OTU_955, g__OTU_956, g__OTU_957, g__OTU_958, g__OTU_959, g__OTU_96, g__OTU_960, g__OTU_962, g__OTU_963, g__OTU_965, g__OTU_966, g__OTU_967, g__OTU_968, g__OTU_969, g__OTU_97, g__OTU_970, g__OTU_971, g__OTU_972, g__OTU_973, g__OTU_974, g__OTU_975, g__OTU_976, g__OTU_977, g__OTU_978, g__OTU_979, g__OTU_98, g__OTU_980, g__OTU_981, g__OTU_982, g__OTU_983, g__OTU_984, g__OTU_985, g__OTU_986, g__OTU_987, g__OTU_988, g__OTU_989, g__OTU_990, g__OTU_991, g__OTU_992, g__OTU_993, g__OTU_994, g__OTU_995, g__OTU_996, g__OTU_997, g__OTU_998, g__OTU_999
+2024-04-14 21:38:07.489035 INFO::Total filtered features with variance filtering: 0
+2024-04-14 21:38:07.492297 INFO::Filtered feature names from variance filtering:
+2024-04-14 21:38:07.495269 INFO::Running selected normalization method: TSS
+2024-04-14 21:38:07.501293 INFO::Applying z-score to standardize continuous metadata
+2024-04-14 21:38:07.515889 INFO::Running selected transform method: LOG
+2024-04-14 21:38:07.548825 INFO::Running selected analysis method: LM
+2024-04-14 21:38:07.563987 INFO::Fitting model to feature number 1, g__OTU_1
+2024-04-14 21:38:07.57045 INFO::Fitting model to feature number 2, g__OTU_10
+2024-04-14 21:38:07.575362 INFO::Fitting model to feature number 3, g__OTU_1003
+2024-04-14 21:38:07.580531 INFO::Fitting model to feature number 4, g__OTU_101
+2024-04-14 21:38:07.586554 INFO::Fitting model to feature number 5, g__OTU_1039
+2024-04-14 21:38:07.591277 INFO::Fitting model to feature number 6, g__OTU_1065
+2024-04-14 21:38:07.595997 INFO::Fitting model to feature number 7, g__OTU_1070
+2024-04-14 21:38:07.600226 INFO::Fitting model to feature number 8, g__OTU_1078
+2024-04-14 21:38:07.605258 INFO::Fitting model to feature number 9, g__OTU_1079
+2024-04-14 21:38:07.609959 INFO::Fitting model to feature number 10, g__OTU_1082
+2024-04-14 21:38:07.61453 INFO::Fitting model to feature number 11, g__OTU_109
+2024-04-14 21:38:07.619215 INFO::Fitting model to feature number 12, g__OTU_11
+2024-04-14 21:38:07.624014 INFO::Fitting model to feature number 13, g__OTU_110
+2024-04-14 21:38:07.628632 INFO::Fitting model to feature number 14, g__OTU_1155
+2024-04-14 21:38:07.633106 INFO::Fitting model to feature number 15, g__OTU_1178
+2024-04-14 21:38:07.637473 INFO::Fitting model to feature number 16, g__OTU_12
+2024-04-14 21:38:07.642463 INFO::Fitting model to feature number 17, g__OTU_126
+2024-04-14 21:38:07.646752 INFO::Fitting model to feature number 18, g__OTU_1265
+2024-04-14 21:38:07.65179 INFO::Fitting model to feature number 19, g__OTU_128
+2024-04-14 21:38:07.656525 INFO::Fitting model to feature number 20, g__OTU_13
+2024-04-14 21:38:07.661025 INFO::Fitting model to feature number 21, g__OTU_130
+2024-04-14 21:38:07.74049 INFO::Fitting model to feature number 22, g__OTU_132
+2024-04-14 21:38:07.745097 INFO::Fitting model to feature number 23, g__OTU_134
+2024-04-14 21:38:07.752579 INFO::Fitting model to feature number 24, g__OTU_135
+2024-04-14 21:38:07.759081 INFO::Fitting model to feature number 25, g__OTU_1361
+2024-04-14 21:38:07.765348 INFO::Fitting model to feature number 26, g__OTU_139
+2024-04-14 21:38:07.769883 INFO::Fitting model to feature number 27, g__OTU_14
+2024-04-14 21:38:07.774546 INFO::Fitting model to feature number 28, g__OTU_15
+2024-04-14 21:38:07.779156 INFO::Fitting model to feature number 29, g__OTU_157
+2024-04-14 21:38:07.783587 INFO::Fitting model to feature number 30, g__OTU_158
+2024-04-14 21:38:07.788048 INFO::Fitting model to feature number 31, g__OTU_159
+2024-04-14 21:38:07.792332 INFO::Fitting model to feature number 32, g__OTU_16
+2024-04-14 21:38:07.79665 INFO::Fitting model to feature number 33, g__OTU_161
+2024-04-14 21:38:07.80077 INFO::Fitting model to feature number 34, g__OTU_162
+2024-04-14 21:38:07.804737 INFO::Fitting model to feature number 35, g__OTU_164
+2024-04-14 21:38:07.8087 INFO::Fitting model to feature number 36, g__OTU_166
+2024-04-14 21:38:07.813201 INFO::Fitting model to feature number 37, g__OTU_168
+2024-04-14 21:38:07.817327 INFO::Fitting model to feature number 38, g__OTU_169
+2024-04-14 21:38:07.821581 INFO::Fitting model to feature number 39, g__OTU_17
+2024-04-14 21:38:07.825443 INFO::Fitting model to feature number 40, g__OTU_170
+2024-04-14 21:38:07.830021 INFO::Fitting model to feature number 41, g__OTU_171
+2024-04-14 21:38:07.834044 INFO::Fitting model to feature number 42, g__OTU_173
+2024-04-14 21:38:07.838014 INFO::Fitting model to feature number 43, g__OTU_181
+2024-04-14 21:38:07.841988 INFO::Fitting model to feature number 44, g__OTU_19
+2024-04-14 21:38:07.846451 INFO::Fitting model to feature number 45, g__OTU_198
+2024-04-14 21:38:07.850327 INFO::Fitting model to feature number 46, g__OTU_2
+2024-04-14 21:38:07.854538 INFO::Fitting model to feature number 47, g__OTU_209
+2024-04-14 21:38:07.858428 INFO::Fitting model to feature number 48, g__OTU_21
+2024-04-14 21:38:07.863927 INFO::Fitting model to feature number 49, g__OTU_214
+2024-04-14 21:38:07.8681 INFO::Fitting model to feature number 50, g__OTU_22
+2024-04-14 21:38:07.872362 INFO::Fitting model to feature number 51, g__OTU_227
+2024-04-14 21:38:07.876302 INFO::Fitting model to feature number 52, g__OTU_23
+2024-04-14 21:38:07.880837 INFO::Fitting model to feature number 53, g__OTU_234
+2024-04-14 21:38:07.912387 INFO::Fitting model to feature number 54, g__OTU_238
+2024-04-14 21:38:07.93897 INFO::Fitting model to feature number 55, g__OTU_24
+2024-04-14 21:38:07.94301 INFO::Fitting model to feature number 56, g__OTU_241
+2024-04-14 21:38:07.94738 INFO::Fitting model to feature number 57, g__OTU_242
+2024-04-14 21:38:07.951438 INFO::Fitting model to feature number 58, g__OTU_244
+2024-04-14 21:38:07.955238 INFO::Fitting model to feature number 59, g__OTU_248
+2024-04-14 21:38:07.95942 INFO::Fitting model to feature number 60, g__OTU_25
+2024-04-14 21:38:07.96382 INFO::Fitting model to feature number 61, g__OTU_255
+2024-04-14 21:38:07.967914 INFO::Fitting model to feature number 62, g__OTU_257
+2024-04-14 21:38:07.971915 INFO::Fitting model to feature number 63, g__OTU_261
+2024-04-14 21:38:07.975664 INFO::Fitting model to feature number 64, g__OTU_262
+2024-04-14 21:38:07.980052 INFO::Fitting model to feature number 65, g__OTU_268
+2024-04-14 21:38:07.984061 INFO::Fitting model to feature number 66, g__OTU_269
+2024-04-14 21:38:07.987944 INFO::Fitting model to feature number 67, g__OTU_274
+2024-04-14 21:38:07.991556 INFO::Fitting model to feature number 68, g__OTU_280
+2024-04-14 21:38:07.995923 INFO::Fitting model to feature number 69, g__OTU_281
+2024-04-14 21:38:07.999925 INFO::Fitting model to feature number 70, g__OTU_285
+2024-04-14 21:38:08.003937 INFO::Fitting model to feature number 71, g__OTU_29
+2024-04-14 21:38:08.007766 INFO::Fitting model to feature number 72, g__OTU_294
+2024-04-14 21:38:08.014313 INFO::Fitting model to feature number 73, g__OTU_295
+2024-04-14 21:38:08.025425 INFO::Fitting model to feature number 74, g__OTU_296
+2024-04-14 21:38:08.040481 INFO::Fitting model to feature number 75, g__OTU_299
+2024-04-14 21:38:08.047721 INFO::Fitting model to feature number 76, g__OTU_3
+2024-04-14 21:38:08.051775 INFO::Fitting model to feature number 77, g__OTU_30
+2024-04-14 21:38:08.055613 INFO::Fitting model to feature number 78, g__OTU_308
+2024-04-14 21:38:08.060178 INFO::Fitting model to feature number 79, g__OTU_31
+2024-04-14 21:38:08.064943 INFO::Fitting model to feature number 80, g__OTU_310
+2024-04-14 21:38:08.070259 INFO::Fitting model to feature number 81, g__OTU_317
+2024-04-14 21:38:08.074104 INFO::Fitting model to feature number 82, g__OTU_32
+2024-04-14 21:38:08.077794 INFO::Fitting model to feature number 83, g__OTU_320
+2024-04-14 21:38:08.081742 INFO::Fitting model to feature number 84, g__OTU_321
+2024-04-14 21:38:08.086526 INFO::Fitting model to feature number 85, g__OTU_322
+2024-04-14 21:38:08.090829 INFO::Fitting model to feature number 86, g__OTU_324
+2024-04-14 21:38:08.094816 INFO::Fitting model to feature number 87, g__OTU_326
+2024-04-14 21:38:08.09853 INFO::Fitting model to feature number 88, g__OTU_327
+2024-04-14 21:38:08.102629 INFO::Fitting model to feature number 89, g__OTU_328
+2024-04-14 21:38:08.106554 INFO::Fitting model to feature number 90, g__OTU_329
+2024-04-14 21:38:08.110616 INFO::Fitting model to feature number 91, g__OTU_33
+2024-04-14 21:38:08.114912 INFO::Fitting model to feature number 92, g__OTU_333
+2024-04-14 21:38:08.119454 INFO::Fitting model to feature number 93, g__OTU_334
+2024-04-14 21:38:08.150826 INFO::Fitting model to feature number 94, g__OTU_335
+2024-04-14 21:38:08.181875 INFO::Fitting model to feature number 95, g__OTU_337
+2024-04-14 21:38:08.194459 INFO::Fitting model to feature number 96, g__OTU_341
+2024-04-14 21:38:08.198548 INFO::Fitting model to feature number 97, g__OTU_342
+2024-04-14 21:38:08.20253 INFO::Fitting model to feature number 98, g__OTU_343
+2024-04-14 21:38:08.206923 INFO::Fitting model to feature number 99, g__OTU_344
+2024-04-14 21:38:08.211318 INFO::Fitting model to feature number 100, g__OTU_345
+2024-04-14 21:38:08.215709 INFO::Fitting model to feature number 101, g__OTU_348
+2024-04-14 21:38:08.220153 INFO::Fitting model to feature number 102, g__OTU_350
+2024-04-14 21:38:08.223892 INFO::Fitting model to feature number 103, g__OTU_353
+2024-04-14 21:38:08.227505 INFO::Fitting model to feature number 104, g__OTU_354
+2024-04-14 21:38:08.23167 INFO::Fitting model to feature number 105, g__OTU_355
+2024-04-14 21:38:08.235803 INFO::Fitting model to feature number 106, g__OTU_356
+2024-04-14 21:38:08.239783 INFO::Fitting model to feature number 107, g__OTU_358
+2024-04-14 21:38:08.243755 INFO::Fitting model to feature number 108, g__OTU_360
+2024-04-14 21:38:08.24778 INFO::Fitting model to feature number 109, g__OTU_363
+2024-04-14 21:38:08.251631 INFO::Fitting model to feature number 110, g__OTU_364
+2024-04-14 21:38:08.255647 INFO::Fitting model to feature number 111, g__OTU_365
+2024-04-14 21:38:08.259599 INFO::Fitting model to feature number 112, g__OTU_366
+2024-04-14 21:38:08.293911 INFO::Fitting model to feature number 113, g__OTU_367
+2024-04-14 21:38:08.301816 INFO::Fitting model to feature number 114, g__OTU_369
+2024-04-14 21:38:08.305607 INFO::Fitting model to feature number 115, g__OTU_370
+2024-04-14 21:38:08.309857 INFO::Fitting model to feature number 116, g__OTU_371
+2024-04-14 21:38:08.314607 INFO::Fitting model to feature number 117, g__OTU_372
+2024-04-14 21:38:08.318981 INFO::Fitting model to feature number 118, g__OTU_373
+2024-04-14 21:38:08.323823 INFO::Fitting model to feature number 119, g__OTU_374
+2024-04-14 21:38:08.327736 INFO::Fitting model to feature number 120, g__OTU_376
+2024-04-14 21:38:08.333997 INFO::Fitting model to feature number 121, g__OTU_377
+2024-04-14 21:38:08.338326 INFO::Fitting model to feature number 122, g__OTU_378
+2024-04-14 21:38:08.343089 INFO::Fitting model to feature number 123, g__OTU_380
+2024-04-14 21:38:08.347495 INFO::Fitting model to feature number 124, g__OTU_381
+2024-04-14 21:38:08.355054 INFO::Fitting model to feature number 125, g__OTU_383
+2024-04-14 21:38:08.359053 INFO::Fitting model to feature number 126, g__OTU_384
+2024-04-14 21:38:08.364172 INFO::Fitting model to feature number 127, g__OTU_385
+2024-04-14 21:38:08.368674 INFO::Fitting model to feature number 128, g__OTU_388
+2024-04-14 21:38:08.3732 INFO::Fitting model to feature number 129, g__OTU_389
+2024-04-14 21:38:08.377532 INFO::Fitting model to feature number 130, g__OTU_390
+2024-04-14 21:38:08.382089 INFO::Fitting model to feature number 131, g__OTU_391
+2024-04-14 21:38:08.386829 INFO::Fitting model to feature number 132, g__OTU_392
+2024-04-14 21:38:08.391502 INFO::Fitting model to feature number 133, g__OTU_394
+2024-04-14 21:38:08.395212 INFO::Fitting model to feature number 134, g__OTU_395
+2024-04-14 21:38:08.399245 INFO::Fitting model to feature number 135, g__OTU_397
+2024-04-14 21:38:08.40323 INFO::Fitting model to feature number 136, g__OTU_399
+2024-04-14 21:38:08.407447 INFO::Fitting model to feature number 137, g__OTU_4
+2024-04-14 21:38:08.411562 INFO::Fitting model to feature number 138, g__OTU_400
+2024-04-14 21:38:08.415621 INFO::Fitting model to feature number 139, g__OTU_401
+2024-04-14 21:38:08.41967 INFO::Fitting model to feature number 140, g__OTU_404
+2024-04-14 21:38:08.423493 INFO::Fitting model to feature number 141, g__OTU_408
+2024-04-14 21:38:08.428151 INFO::Fitting model to feature number 142, g__OTU_413
+2024-04-14 21:38:08.432353 INFO::Fitting model to feature number 143, g__OTU_415
+2024-04-14 21:38:08.436369 INFO::Fitting model to feature number 144, g__OTU_416
+2024-04-14 21:38:08.440447 INFO::Fitting model to feature number 145, g__OTU_418
+2024-04-14 21:38:08.444269 INFO::Fitting model to feature number 146, g__OTU_419
+2024-04-14 21:38:08.44767 INFO::Fitting model to feature number 147, g__OTU_426
+2024-04-14 21:38:08.451073 INFO::Fitting model to feature number 148, g__OTU_427
+2024-04-14 21:38:08.454771 INFO::Fitting model to feature number 149, g__OTU_428
+2024-04-14 21:38:08.459065 INFO::Fitting model to feature number 150, g__OTU_430
+2024-04-14 21:38:08.488763 INFO::Fitting model to feature number 151, g__OTU_431
+2024-04-14 21:38:08.50458 INFO::Fitting model to feature number 152, g__OTU_433
+2024-04-14 21:38:08.508633 INFO::Fitting model to feature number 153, g__OTU_434
+2024-04-14 21:38:08.510344 INFO::Fitting model to feature number 154, g__OTU_435
+2024-04-14 21:38:08.512282 INFO::Fitting model to feature number 155, g__OTU_436
+2024-04-14 21:38:08.514098 INFO::Fitting model to feature number 156, g__OTU_439
+2024-04-14 21:38:08.516138 INFO::Fitting model to feature number 157, g__OTU_440
+2024-04-14 21:38:08.517838 INFO::Fitting model to feature number 158, g__OTU_441
+2024-04-14 21:38:08.519591 INFO::Fitting model to feature number 159, g__OTU_443
+2024-04-14 21:38:08.522585 INFO::Fitting model to feature number 160, g__OTU_444
+2024-04-14 21:38:08.526836 INFO::Fitting model to feature number 161, g__OTU_446
+2024-04-14 21:38:08.53087 INFO::Fitting model to feature number 162, g__OTU_447
+2024-04-14 21:38:08.535148 INFO::Fitting model to feature number 163, g__OTU_450
+2024-04-14 21:38:08.539064 INFO::Fitting model to feature number 164, g__OTU_451
+2024-04-14 21:38:08.542686 INFO::Fitting model to feature number 165, g__OTU_452
+2024-04-14 21:38:08.547395 INFO::Fitting model to feature number 166, g__OTU_454
+2024-04-14 21:38:08.575301 INFO::Fitting model to feature number 167, g__OTU_455
+2024-04-14 21:38:08.579516 INFO::Fitting model to feature number 168, g__OTU_456
+2024-04-14 21:38:08.583508 INFO::Fitting model to feature number 169, g__OTU_458
+2024-04-14 21:38:08.587255 INFO::Fitting model to feature number 170, g__OTU_46
+2024-04-14 21:38:08.590627 INFO::Fitting model to feature number 171, g__OTU_460
+2024-04-14 21:38:08.594179 INFO::Fitting model to feature number 172, g__OTU_462
+2024-04-14 21:38:08.597941 INFO::Fitting model to feature number 173, g__OTU_464
+2024-04-14 21:38:08.602251 INFO::Fitting model to feature number 174, g__OTU_465
+2024-04-14 21:38:08.606339 INFO::Fitting model to feature number 175, g__OTU_466
+2024-04-14 21:38:08.610307 INFO::Fitting model to feature number 176, g__OTU_467
+2024-04-14 21:38:08.614082 INFO::Fitting model to feature number 177, g__OTU_469
+2024-04-14 21:38:08.617618 INFO::Fitting model to feature number 178, g__OTU_472
+2024-04-14 21:38:08.62134 INFO::Fitting model to feature number 179, g__OTU_473
+2024-04-14 21:38:08.625671 INFO::Fitting model to feature number 180, g__OTU_476
+2024-04-14 21:38:08.629663 INFO::Fitting model to feature number 181, g__OTU_478
+2024-04-14 21:38:08.633629 INFO::Fitting model to feature number 182, g__OTU_480
+2024-04-14 21:38:08.637404 INFO::Fitting model to feature number 183, g__OTU_481
+2024-04-14 21:38:08.640891 INFO::Fitting model to feature number 184, g__OTU_484
+2024-04-14 21:38:08.644588 INFO::Fitting model to feature number 185, g__OTU_485
+2024-04-14 21:38:08.648812 INFO::Fitting model to feature number 186, g__OTU_486
+2024-04-14 21:38:08.652782 INFO::Fitting model to feature number 187, g__OTU_488
+2024-04-14 21:38:08.656429 INFO::Fitting model to feature number 188, g__OTU_49
+2024-04-14 21:38:08.660618 INFO::Fitting model to feature number 189, g__OTU_490
+2024-04-14 21:38:08.664428 INFO::Fitting model to feature number 190, g__OTU_491
+2024-04-14 21:38:08.6687 INFO::Fitting model to feature number 191, g__OTU_492
+2024-04-14 21:38:08.672604 INFO::Fitting model to feature number 192, g__OTU_493
+2024-04-14 21:38:08.67693 INFO::Fitting model to feature number 193, g__OTU_494
+2024-04-14 21:38:08.680482 INFO::Fitting model to feature number 194, g__OTU_497
+2024-04-14 21:38:08.684017 INFO::Fitting model to feature number 195, g__OTU_498
+2024-04-14 21:38:08.705254 INFO::Fitting model to feature number 196, g__OTU_5
+2024-04-14 21:38:08.722564 INFO::Fitting model to feature number 197, g__OTU_50
+2024-04-14 21:38:08.727232 INFO::Fitting model to feature number 198, g__OTU_507
+2024-04-14 21:38:08.732319 INFO::Fitting model to feature number 199, g__OTU_509
+2024-04-14 21:38:08.768245 INFO::Fitting model to feature number 200, g__OTU_510
+2024-04-14 21:38:08.797117 INFO::Fitting model to feature number 201, g__OTU_516
+2024-04-14 21:38:08.800766 INFO::Fitting model to feature number 202, g__OTU_517
+2024-04-14 21:38:08.804859 INFO::Fitting model to feature number 203, g__OTU_519
+2024-04-14 21:38:08.808881 INFO::Fitting model to feature number 204, g__OTU_52
+2024-04-14 21:38:08.813019 INFO::Fitting model to feature number 205, g__OTU_520
+2024-04-14 21:38:08.816686 INFO::Fitting model to feature number 206, g__OTU_521
+2024-04-14 21:38:08.820582 INFO::Fitting model to feature number 207, g__OTU_522
+2024-04-14 21:38:08.824826 INFO::Fitting model to feature number 208, g__OTU_523
+2024-04-14 21:38:08.829318 INFO::Fitting model to feature number 209, g__OTU_525
+2024-04-14 21:38:08.833261 INFO::Fitting model to feature number 210, g__OTU_526
+2024-04-14 21:38:08.83682 INFO::Fitting model to feature number 211, g__OTU_527
+2024-04-14 21:38:08.840452 INFO::Fitting model to feature number 212, g__OTU_528
+2024-04-14 21:38:08.844438 INFO::Fitting model to feature number 213, g__OTU_529
+2024-04-14 21:38:08.848309 INFO::Fitting model to feature number 214, g__OTU_530
+2024-04-14 21:38:08.852503 INFO::Fitting model to feature number 215, g__OTU_531
+2024-04-14 21:38:08.856664 INFO::Fitting model to feature number 216, g__OTU_532
+2024-04-14 21:38:08.860236 INFO::Fitting model to feature number 217, g__OTU_535
+2024-04-14 21:38:08.863777 INFO::Fitting model to feature number 218, g__OTU_536
+2024-04-14 21:38:08.867359 INFO::Fitting model to feature number 219, g__OTU_537
+2024-04-14 21:38:08.871697 INFO::Fitting model to feature number 220, g__OTU_539
+2024-04-14 21:38:08.875611 INFO::Fitting model to feature number 221, g__OTU_54
+2024-04-14 21:38:08.879594 INFO::Fitting model to feature number 222, g__OTU_540
+2024-04-14 21:38:08.883314 INFO::Fitting model to feature number 223, g__OTU_541
+2024-04-14 21:38:08.914134 INFO::Fitting model to feature number 224, g__OTU_544
+2024-04-14 21:38:08.928728 INFO::Fitting model to feature number 225, g__OTU_545
+2024-04-14 21:38:08.932968 INFO::Fitting model to feature number 226, g__OTU_546
+2024-04-14 21:38:08.9369 INFO::Fitting model to feature number 227, g__OTU_547
+2024-04-14 21:38:08.940946 INFO::Fitting model to feature number 228, g__OTU_548
+2024-04-14 21:38:08.944677 INFO::Fitting model to feature number 229, g__OTU_549
+2024-04-14 21:38:08.948201 INFO::Fitting model to feature number 230, g__OTU_550
+2024-04-14 21:38:08.951757 INFO::Fitting model to feature number 231, g__OTU_552
+2024-04-14 21:38:08.955603 INFO::Fitting model to feature number 232, g__OTU_554
+2024-04-14 21:38:08.95943 INFO::Fitting model to feature number 233, g__OTU_555
+2024-04-14 21:38:08.963528 INFO::Fitting model to feature number 234, g__OTU_556
+2024-04-14 21:38:08.967196 INFO::Fitting model to feature number 235, g__OTU_557
+2024-04-14 21:38:08.970579 INFO::Fitting model to feature number 236, g__OTU_558
+2024-04-14 21:38:08.973997 INFO::Fitting model to feature number 237, g__OTU_559
+2024-04-14 21:38:08.977297 INFO::Fitting model to feature number 238, g__OTU_560
+2024-04-14 21:38:08.981118 INFO::Fitting model to feature number 239, g__OTU_561
+2024-04-14 21:38:08.985492 INFO::Fitting model to feature number 240, g__OTU_562
+2024-04-14 21:38:08.989387 INFO::Fitting model to feature number 241, g__OTU_563
+2024-04-14 21:38:08.99325 INFO::Fitting model to feature number 242, g__OTU_564
+2024-04-14 21:38:08.99673 INFO::Fitting model to feature number 243, g__OTU_565
+2024-04-14 21:38:09.000313 INFO::Fitting model to feature number 244, g__OTU_566
+2024-04-14 21:38:09.004309 INFO::Fitting model to feature number 245, g__OTU_567
+2024-04-14 21:38:09.008412 INFO::Fitting model to feature number 246, g__OTU_571
+2024-04-14 21:38:09.012453 INFO::Fitting model to feature number 247, g__OTU_573
+2024-04-14 21:38:09.015951 INFO::Fitting model to feature number 248, g__OTU_574
+2024-04-14 21:38:09.019806 INFO::Fitting model to feature number 249, g__OTU_575
+2024-04-14 21:38:09.023907 INFO::Fitting model to feature number 250, g__OTU_576
+2024-04-14 21:38:09.027938 INFO::Fitting model to feature number 251, g__OTU_577
+2024-04-14 21:38:09.031634 INFO::Fitting model to feature number 252, g__OTU_578
+2024-04-14 21:38:09.035703 INFO::Fitting model to feature number 253, g__OTU_579
+2024-04-14 21:38:09.03938 INFO::Fitting model to feature number 254, g__OTU_580
+2024-04-14 21:38:09.043617 INFO::Fitting model to feature number 255, g__OTU_581
+2024-04-14 21:38:09.051193 INFO::Fitting model to feature number 256, g__OTU_583
+2024-04-14 21:38:09.056399 INFO::Fitting model to feature number 257, g__OTU_584
+2024-04-14 21:38:09.060184 INFO::Fitting model to feature number 258, g__OTU_585
+2024-04-14 21:38:09.064346 INFO::Fitting model to feature number 259, g__OTU_589
+2024-04-14 21:38:09.097344 INFO::Fitting model to feature number 260, g__OTU_59
+2024-04-14 21:38:09.127963 INFO::Fitting model to feature number 261, g__OTU_590
+2024-04-14 21:38:09.134341 INFO::Fitting model to feature number 262, g__OTU_591
+2024-04-14 21:38:09.138238 INFO::Fitting model to feature number 263, g__OTU_592
+2024-04-14 21:38:09.142385 INFO::Fitting model to feature number 264, g__OTU_594
+2024-04-14 21:38:09.146442 INFO::Fitting model to feature number 265, g__OTU_595
+2024-04-14 21:38:09.149842 INFO::Fitting model to feature number 266, g__OTU_598
+2024-04-14 21:38:09.153584 INFO::Fitting model to feature number 267, g__OTU_6
+2024-04-14 21:38:09.157476 INFO::Fitting model to feature number 268, g__OTU_60
+2024-04-14 21:38:09.16153 INFO::Fitting model to feature number 269, g__OTU_603
+2024-04-14 21:38:09.165597 INFO::Fitting model to feature number 270, g__OTU_605
+2024-04-14 21:38:09.169227 INFO::Fitting model to feature number 271, g__OTU_610
+2024-04-14 21:38:09.172817 INFO::Fitting model to feature number 272, g__OTU_611
+2024-04-14 21:38:09.176407 INFO::Fitting model to feature number 273, g__OTU_616
+2024-04-14 21:38:09.180064 INFO::Fitting model to feature number 274, g__OTU_617
+2024-04-14 21:38:09.184203 INFO::Fitting model to feature number 275, g__OTU_618
+2024-04-14 21:38:09.188289 INFO::Fitting model to feature number 276, g__OTU_619
+2024-04-14 21:38:09.192313 INFO::Fitting model to feature number 277, g__OTU_620
+2024-04-14 21:38:09.195847 INFO::Fitting model to feature number 278, g__OTU_621
+2024-04-14 21:38:09.199597 INFO::Fitting model to feature number 279, g__OTU_622
+2024-04-14 21:38:09.203019 INFO::Fitting model to feature number 280, g__OTU_623
+2024-04-14 21:38:09.207096 INFO::Fitting model to feature number 281, g__OTU_624
+2024-04-14 21:38:09.211438 INFO::Fitting model to feature number 282, g__OTU_626
+2024-04-14 21:38:09.21507 INFO::Fitting model to feature number 283, g__OTU_627
+2024-04-14 21:38:09.28043 INFO::Fitting model to feature number 284, g__OTU_628
+2024-04-14 21:38:09.294981 INFO::Fitting model to feature number 285, g__OTU_632
+2024-04-14 21:38:09.299014 INFO::Fitting model to feature number 286, g__OTU_635
+2024-04-14 21:38:09.30289 INFO::Fitting model to feature number 287, g__OTU_643
+2024-04-14 21:38:09.306638 INFO::Fitting model to feature number 288, g__OTU_647
+2024-04-14 21:38:09.310563 INFO::Fitting model to feature number 289, g__OTU_658
+2024-04-14 21:38:09.314523 INFO::Fitting model to feature number 290, g__OTU_66
+2024-04-14 21:38:09.318732 INFO::Fitting model to feature number 291, g__OTU_663
+2024-04-14 21:38:09.322097 INFO::Fitting model to feature number 292, g__OTU_685
+2024-04-14 21:38:09.326085 INFO::Fitting model to feature number 293, g__OTU_688
+2024-04-14 21:38:09.329901 INFO::Fitting model to feature number 294, g__OTU_689
+2024-04-14 21:38:09.333455 INFO::Fitting model to feature number 295, g__OTU_69
+2024-04-14 21:38:09.337471 INFO::Fitting model to feature number 296, g__OTU_694
+2024-04-14 21:38:09.362167 INFO::Fitting model to feature number 297, g__OTU_696
+2024-04-14 21:38:09.365206 INFO::Fitting model to feature number 298, g__OTU_7
+2024-04-14 21:38:09.369235 INFO::Fitting model to feature number 299, g__OTU_70
+2024-04-14 21:38:09.373103 INFO::Fitting model to feature number 300, g__OTU_700
+2024-04-14 21:38:09.377303 INFO::Fitting model to feature number 301, g__OTU_703
+2024-04-14 21:38:09.38248 INFO::Fitting model to feature number 302, g__OTU_704
+2024-04-14 21:38:09.387473 INFO::Fitting model to feature number 303, g__OTU_711
+2024-04-14 21:38:09.391529 INFO::Fitting model to feature number 304, g__OTU_715
+2024-04-14 21:38:09.395958 INFO::Fitting model to feature number 305, g__OTU_717
+2024-04-14 21:38:09.400465 INFO::Fitting model to feature number 306, g__OTU_719
+2024-04-14 21:38:09.404128 INFO::Fitting model to feature number 307, g__OTU_720
+2024-04-14 21:38:09.408272 INFO::Fitting model to feature number 308, g__OTU_735
+2024-04-14 21:38:09.412247 INFO::Fitting model to feature number 309, g__OTU_736
+2024-04-14 21:38:09.416332 INFO::Fitting model to feature number 310, g__OTU_739
+2024-04-14 21:38:09.419632 INFO::Fitting model to feature number 311, g__OTU_740
+2024-04-14 21:38:09.423706 INFO::Fitting model to feature number 312, g__OTU_741
+2024-04-14 21:38:09.427772 INFO::Fitting model to feature number 313, g__OTU_743
+2024-04-14 21:38:09.431185 INFO::Fitting model to feature number 314, g__OTU_749
+2024-04-14 21:38:09.434874 INFO::Fitting model to feature number 315, g__OTU_753
+2024-04-14 21:38:09.4386 INFO::Fitting model to feature number 316, g__OTU_761
+2024-04-14 21:38:09.442836 INFO::Fitting model to feature number 317, g__OTU_762
+2024-04-14 21:38:09.446288 INFO::Fitting model to feature number 318, g__OTU_766
+2024-04-14 21:38:09.450262 INFO::Fitting model to feature number 319, g__OTU_769
+2024-04-14 21:38:09.453875 INFO::Fitting model to feature number 320, g__OTU_770
+2024-04-14 21:38:09.457385 INFO::Fitting model to feature number 321, g__OTU_777
+2024-04-14 21:38:09.461029 INFO::Fitting model to feature number 322, g__OTU_78
+2024-04-14 21:38:09.465088 INFO::Fitting model to feature number 323, g__OTU_780
+2024-04-14 21:38:09.46937 INFO::Fitting model to feature number 324, g__OTU_786
+2024-04-14 21:38:09.473378 INFO::Fitting model to feature number 325, g__OTU_789
+2024-04-14 21:38:09.477372 INFO::Fitting model to feature number 326, g__OTU_79
+2024-04-14 21:38:09.480911 INFO::Fitting model to feature number 327, g__OTU_790
+2024-04-14 21:38:09.48435 INFO::Fitting model to feature number 328, g__OTU_795
+2024-04-14 21:38:09.488201 INFO::Fitting model to feature number 329, g__OTU_8
+2024-04-14 21:38:09.492461 INFO::Fitting model to feature number 330, g__OTU_800
+2024-04-14 21:38:09.496289 INFO::Fitting model to feature number 331, g__OTU_804
+2024-04-14 21:38:09.500439 INFO::Fitting model to feature number 332, g__OTU_805
+2024-04-14 21:38:09.504119 INFO::Fitting model to feature number 333, g__OTU_807
+2024-04-14 21:38:09.507482 INFO::Fitting model to feature number 334, g__OTU_814
+2024-04-14 21:38:09.511004 INFO::Fitting model to feature number 335, g__OTU_815
+2024-04-14 21:38:09.51549 INFO::Fitting model to feature number 336, g__OTU_818
+2024-04-14 21:38:09.517633 INFO::Fitting model to feature number 337, g__OTU_819
+2024-04-14 21:38:09.548201 INFO::Fitting model to feature number 338, g__OTU_826
+2024-04-14 21:38:09.56603 INFO::Fitting model to feature number 339, g__OTU_827
+2024-04-14 21:38:09.569788 INFO::Fitting model to feature number 340, g__OTU_834
+2024-04-14 21:38:09.57341 INFO::Fitting model to feature number 341, g__OTU_836
+2024-04-14 21:38:09.577092 INFO::Fitting model to feature number 342, g__OTU_84
+2024-04-14 21:38:09.58125 INFO::Fitting model to feature number 343, g__OTU_851
+2024-04-14 21:38:09.590236 INFO::Fitting model to feature number 344, g__OTU_853
+2024-04-14 21:38:09.59394 INFO::Fitting model to feature number 345, g__OTU_855
+2024-04-14 21:38:09.609381 INFO::Fitting model to feature number 346, g__OTU_86
+2024-04-14 21:38:09.613172 INFO::Fitting model to feature number 347, g__OTU_865
+2024-04-14 21:38:09.616694 INFO::Fitting model to feature number 348, g__OTU_873
+2024-04-14 21:38:09.62066 INFO::Fitting model to feature number 349, g__OTU_875
+2024-04-14 21:38:09.624706 INFO::Fitting model to feature number 350, g__OTU_88
+2024-04-14 21:38:09.62883 INFO::Fitting model to feature number 351, g__OTU_883
+2024-04-14 21:38:09.632954 INFO::Fitting model to feature number 352, g__OTU_885
+2024-04-14 21:38:09.636778 INFO::Fitting model to feature number 353, g__OTU_892
+2024-04-14 21:38:09.640298 INFO::Fitting model to feature number 354, g__OTU_9
+2024-04-14 21:38:09.643754 INFO::Fitting model to feature number 355, g__OTU_905
+2024-04-14 21:38:09.647703 INFO::Fitting model to feature number 356, g__OTU_906
+2024-04-14 21:38:09.652009 INFO::Fitting model to feature number 357, g__OTU_912
+2024-04-14 21:38:09.655953 INFO::Fitting model to feature number 358, g__OTU_914
+2024-04-14 21:38:09.659846 INFO::Fitting model to feature number 359, g__OTU_915
+2024-04-14 21:38:09.663294 INFO::Fitting model to feature number 360, g__OTU_95
+2024-04-14 21:38:09.667001 INFO::Fitting model to feature number 361, g__OTU_961
+2024-04-14 21:38:09.671226 INFO::Fitting model to feature number 362, g__OTU_964
+2024-04-14 21:38:09.675518 INFO::Fitting model to feature number 363, g__OTU_99
+2024-04-14 21:38:09.735499 INFO::Counting total values for each feature
+2024-04-14 21:38:09.762176 INFO::Writing filtered data to file maaslin2/features/filtered_data.tsv
+2024-04-14 21:38:09.777404 INFO::Writing filtered, normalized data to file maaslin2/features/filtered_data_norm.tsv
+2024-04-14 21:38:09.792556 INFO::Writing filtered, normalized, transformed data to file maaslin2/features/filtered_data_norm_transformed.tsv
+2024-04-14 21:38:09.839493 INFO::Writing residuals to file maaslin2/fits/residuals.rds
+2024-04-14 21:38:09.849146 INFO::Writing fitted values to file maaslin2/fits/fitted.rds
+2024-04-14 21:38:09.85644 INFO::Writing all results to file (ordered by increasing q-values): maaslin2/all_results.tsv
+2024-04-14 21:38:09.864602 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): maaslin2/significant_results.tsv
+2024-04-14 21:38:09.868369 INFO::Writing heatmap of significant results to file: maaslin2/heatmap.pdf
+2024-04-14 21:38:09.905749 INFO::Writing association plots (one for each significant association) to output folder: maaslin2
+2024-04-14 21:38:09.91079 INFO::Plotting associations from most to least significant, grouped by metadata
+2024-04-14 21:38:09.913642 INFO::Plotting data for metadata number 1, Archaea_final
+2024-04-14 21:38:09.917223 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_460
+2024-04-14 21:38:10.003059 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_814
+2024-04-14 21:38:10.072121 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_416
+2024-04-14 21:38:10.15203 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_428
+2024-04-14 21:38:10.214304 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_440
+2024-04-14 21:38:10.277636 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_486
+2024-04-14 21:38:10.362459 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_522
+2024-04-14 21:38:10.433773 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_548
+2024-04-14 21:38:10.50996 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_689
+2024-04-14 21:38:10.591099 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_741
+2024-04-14 21:38:10.662982 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_1155
+2024-04-14 21:38:10.734515 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_564
+2024-04-14 21:38:10.864773 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_580
+2024-04-14 21:38:10.932158 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_703
+2024-04-14 21:38:10.997344 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_1039
+2024-04-14 21:38:11.061195 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_343
+2024-04-14 21:38:11.143403 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_363
+2024-04-14 21:38:11.207652 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_704
+2024-04-14 21:38:11.283058 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_571
+2024-04-14 21:38:11.362393 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_54
+2024-04-14 21:38:11.430226 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_574
+2024-04-14 21:38:11.500818 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_658
+2024-04-14 21:38:11.568385 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_616
+2024-04-14 21:38:11.648941 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_324
+2024-04-14 21:38:11.713939 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_22
+2024-04-14 21:38:11.778631 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_285
+2024-04-14 21:38:11.862757 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_369
+2024-04-14 21:38:11.931545 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_766
+2024-04-14 21:38:12.002618 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_372
+2024-04-14 21:38:12.06765 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_381
+2024-04-14 21:38:12.147819 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_789
+2024-04-14 21:38:12.212955 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_397
+2024-04-14 21:38:12.275925 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_13
+2024-04-14 21:38:12.355139 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_804
+2024-04-14 21:38:12.419165 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_88
+2024-04-14 21:38:12.481185 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_498
+2024-04-14 21:38:12.545025 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_581
+2024-04-14 21:38:12.634005 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_700
+2024-04-14 21:38:12.701841 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_390
+2024-04-14 21:38:12.768403 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_327
+2024-04-14 21:38:13.505654 INFO::Plotting data for metadata number 2, Disease
+2024-04-14 21:38:13.508476 INFO::Creating boxplot for categorical data, Disease vs g__OTU_851
+2024-04-14 21:38:13.592252 INFO::Creating boxplot for categorical data, Disease vs g__OTU_460
+2024-04-14 21:38:13.681729 INFO::Creating boxplot for categorical data, Disease vs g__OTU_855
+2024-04-14 21:38:13.758495 INFO::Creating boxplot for categorical data, Disease vs g__OTU_380
+2024-04-14 21:38:13.830955 INFO::Creating boxplot for categorical data, Disease vs g__OTU_851
+2024-04-14 21:38:13.91554 INFO::Creating boxplot for categorical data, Disease vs g__OTU_380
+2024-04-14 21:38:13.984568 INFO::Creating boxplot for categorical data, Disease vs g__OTU_715
+2024-04-14 21:38:14.056937 INFO::Creating boxplot for categorical data, Disease vs g__OTU_426
+2024-04-14 21:38:14.141662 INFO::Creating boxplot for categorical data, Disease vs g__OTU_696
+2024-04-14 21:38:14.209338 INFO::Creating boxplot for categorical data, Disease vs g__OTU_4
+2024-04-14 21:38:14.27855 INFO::Creating boxplot for categorical data, Disease vs g__OTU_401
+2024-04-14 21:38:14.366653 INFO::Creating boxplot for categorical data, Disease vs g__OTU_450
+2024-04-14 21:38:14.434767 INFO::Creating boxplot for categorical data, Disease vs g__OTU_1070
+2024-04-14 21:38:14.517842 INFO::Creating boxplot for categorical data, Disease vs g__OTU_268
+2024-04-14 21:38:14.606565 INFO::Creating boxplot for categorical data, Disease vs g__OTU_537
+2024-04-14 21:38:14.673633 INFO::Creating boxplot for categorical data, Disease vs g__OTU_541
+2024-04-14 21:38:14.747938 INFO::Creating boxplot for categorical data, Disease vs g__OTU_1
+2024-04-14 21:38:14.836354 INFO::Creating boxplot for categorical data, Disease vs g__OTU_377
+2024-04-14 21:38:14.917407 INFO::Creating boxplot for categorical data, Disease vs g__OTU_855
+2024-04-14 21:38:14.985099 INFO::Creating boxplot for categorical data, Disease vs g__OTU_32
+2024-04-14 21:38:15.071376 INFO::Creating boxplot for categorical data, Disease vs g__OTU_426
+2024-04-14 21:38:15.16447 INFO::Creating boxplot for categorical data, Disease vs g__OTU_598
+2024-04-14 21:38:15.232694 INFO::Creating boxplot for categorical data, Disease vs g__OTU_741
+2024-04-14 21:38:15.317935 INFO::Creating boxplot for categorical data, Disease vs g__OTU_1070
+2024-04-14 21:38:15.392934 INFO::Creating boxplot for categorical data, Disease vs g__OTU_397
+2024-04-14 21:38:15.462468 INFO::Creating boxplot for categorical data, Disease vs g__OTU_552
+2024-04-14 21:38:15.55185 INFO::Creating boxplot for categorical data, Disease vs g__OTU_704
+2024-04-14 21:38:15.625867 INFO::Creating boxplot for categorical data, Disease vs g__OTU_9
+2024-04-14 21:38:15.706314 INFO::Creating boxplot for categorical data, Disease vs g__OTU_590
+2024-04-14 21:38:15.782463 INFO::Creating boxplot for categorical data, Disease vs g__OTU_598
+2024-04-14 21:38:15.853584 INFO::Creating boxplot for categorical data, Disease vs g__OTU_815
+2024-04-14 21:38:16.662382 INFO::Plotting data for metadata number 3, Sample_classification
+2024-04-14 21:38:16.670236 INFO::Creating boxplot for categorical data, Sample_classification vs g__OTU_373
+2024-04-14 21:38:16.755848 INFO::Creating boxplot for categorical data, Sample_classification vs g__OTU_1265
+2024-04-14 21:38:16.848695 INFO::Creating boxplot for categorical data, Sample_classification vs g__OTU_590

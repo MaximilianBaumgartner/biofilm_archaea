@@ -1,0 +1,3 @@
+"","baseMean","log2FoldChange","lfcSE","stat","pvalue","padj","Domain","Phylum","Class","Order","Family","Genus"
+"ASV_1en_ate",29.6014140032639,-6.91083870621104,1.88280604322508,-3.67049953503091,0.000242076910235246,0.0280809215872886,"Bacteria","Firmicutes","Clostridia","Oscillospirales","","OTU_1en_ate"
+"ASV_2gx_czg",382.529284372736,4.86680805575654,1.22155719012731,3.98410168192725,6.77358668479633e-05,0.0157147211087275,"Bacteria","Bacteroidota","Bacteroidia","Bacteroidales","Prevotellaceae","OTU_8kv_lo2"

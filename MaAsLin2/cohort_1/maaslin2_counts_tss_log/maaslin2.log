@@ -1,0 +1,270 @@
+2024-04-14 21:38:39.85318 INFO::Writing function arguments to log file
+2024-04-14 21:38:39.854012 DEBUG::Function arguments
+2024-04-14 21:38:39.855632 DEBUG::Output folder: maaslin2_counts_tss_log
+2024-04-14 21:38:39.857296 DEBUG::Min Abundance: 0.000100
+2024-04-14 21:38:39.858577 DEBUG::Min Prevalence: 0.100000
+2024-04-14 21:38:39.85992 DEBUG::Normalization: TSS
+2024-04-14 21:38:39.861715 DEBUG::Transform: LOG
+2024-04-14 21:38:39.863522 DEBUG::Analysis method: LM
+2024-04-14 21:38:39.86531 DEBUG::Max significance: 0.250000
+2024-04-14 21:38:39.866616 DEBUG::Random effects:
+2024-04-14 21:38:39.868029 DEBUG::Fixed effects: Sample_classification,Disease2,Archaea_final
+2024-04-14 21:38:39.869574 DEBUG::Correction method: BH
+2024-04-14 21:38:39.870796 DEBUG::Standardize: TRUE
+2024-04-14 21:38:39.872038 DEBUG::Cores: 1
+2024-04-14 21:38:39.873215 INFO::Verifying options selected are valid
+2024-04-14 21:38:39.875084 INFO::Determining format of input files
+2024-04-14 21:38:39.876814 INFO::Input format is data samples as rows and metadata samples as rows
+2024-04-14 21:38:39.8798 DEBUG::A total of 76 samples were found in both the data and metadata
+2024-04-14 21:38:39.882152 DEBUG::Reordering data/metadata to use same sample ordering
+2024-04-14 21:38:39.886399 INFO::Formula for fixed effects: expr ~  Sample_classification + Disease2 + Archaea_final
+2024-04-14 21:38:39.889525 INFO::Filter data based on min abundance and min prevalence
+2024-04-14 21:38:39.891851 INFO::Total samples in data: 76
+2024-04-14 21:38:39.894298 INFO::Min samples required with min abundance for a feature not to be filtered: 7.600000
+2024-04-14 21:38:39.899253 INFO::Total filtered features: 337
+2024-04-14 21:38:39.90183 INFO::Filtered feature names from abundance and prevalence filtering: g__OTU_11u_vrb, g__OTU_18s_7bm, g__OTU_18v_fp3, g__OTU_1aa_37x, g__OTU_1ih_0ta, g__OTU_1j2_bbg, g__OTU_1tk_rkx, g__OTU_1ts_mon, g__OTU_1w1_ilx, g__OTU_24y_fd1, g__OTU_28q_zc4, g__OTU_2bp_00c, g__OTU_2go_cr2, g__OTU_2l7_mvf, g__OTU_2mq_p7k, g__OTU_2sw_ib7, g__OTU_2to_361, g__OTU_2zi_44w, g__OTU_2zv_gp1, g__OTU_33n_fz2, g__OTU_35c_aav, g__OTU_3bn_v88, g__OTU_3bx_5h9, g__OTU_3cp_kif, g__OTU_3kt_8gd, g__OTU_3lq_08p, g__OTU_3nn_9pd, g__OTU_3np_bxk, g__OTU_3o6_kr5, g__OTU_3ou_e13, g__OTU_3sg_klx, g__OTU_4au_f49, g__OTU_4f7_7vj, g__OTU_4lu_4pu, g__OTU_4ri_mkm, g__OTU_4sy_0rp, g__OTU_4yl_wgg, g__OTU_4zz_iw3, g__OTU_555_gl0, g__OTU_57w_rjz, g__OTU_5ix_ktl, g__OTU_5jy_crx, g__OTU_5kf_2wp, g__OTU_5lx_lo6, g__OTU_5oj_b32, g__OTU_5oo_dg6, g__OTU_5qk_5gr, g__OTU_5r8_fyu, g__OTU_5wt_lly, g__OTU_5x3_zdf, g__OTU_5xc_mb7, g__OTU_6ak_6o2, g__OTU_6bb_5fs, g__OTU_6dk_ww0, g__OTU_6fg_s1o, g__OTU_6fn_kpa, g__OTU_6y7_oo0, g__OTU_6yi_sa8, g__OTU_71k_ais, g__OTU_71w_43d, g__OTU_734_o2y, g__OTU_74y_6sf, g__OTU_77h_6d0, g__OTU_77h_6yw, g__OTU_77y_2kt, g__OTU_78g_eu9, g__OTU_7cs_se2, g__OTU_7d2_aw8, g__OTU_7dv_7up, g__OTU_7ne_rwc, g__OTU_7nl_7a8, g__OTU_7nn_8wq, g__OTU_7rq_c7l, g__OTU_7ss_l1t, g__OTU_7uj_6p7, g__OTU_7wb_qr2, g__OTU_84z_qen, g__OTU_87l_063, g__OTU_882_25y, g__OTU_8qd_zm9, g__OTU_8ro_vyn, g__OTU_8yb_ic6, g__OTU_901_eez, g__OTU_93q_fr4, g__OTU_96p_dm0, g__OTU_970_bye, g__OTU_98x_e2r, g__OTU_9ag_o1p, g__OTU_9bg_a4x, g__OTU_9bm_sqy, g__OTU_9da_bau, g__OTU_9da_tmv, g__OTU_9li_21w, g__OTU_9ok_agj, g__OTU_9p2_588, g__OTU_9t4_b9o, g__OTU_9wm_vc5, g__OTU_9x0_f27, g__OTU_a1u_7oy, g__OTU_a2h_h2k, g__OTU_a4m_74l, g__OTU_acj_c95, g__OTU_aet_w59, g__OTU_ahy_q6u, g__OTU_ai6_ozw, g__OTU_alr_uvd, g__OTU_an7_2le, g__OTU_anj_07x, g__OTU_ao2_ooe, g__OTU_avp_681, g__OTU_avs_02g, g__OTU_azm_n6l, g__OTU_b19_v2s, g__OTU_b5f_wa1, g__OTU_bct_4vs, g__OTU_be9_70z, g__OTU_bfe_ec5, g__OTU_bnk_uhh, g__OTU_bqb_j5y, g__OTU_bs1_sds, g__OTU_by5_cwm, g__OTU_byc_apa, g__OTU_bzb_d5r, g__OTU_c1m_jl0, g__OTU_c27_pwx, g__OTU_cdl_khb, g__OTU_cfr_v0e, g__OTU_clo_rif, g__OTU_coi_z42, g__OTU_cok_8pz, g__OTU_cup_yhe, g__OTU_cvl_s29, g__OTU_cvp_08h, g__OTU_d68_l9i, g__OTU_d8s_4n4, g__OTU_dce_g1l, g__OTU_df2_owe, g__OTU_dgo_ne4, g__OTU_dh0_uih, g__OTU_dll_xlw, g__OTU_drt_r9w, g__OTU_dzj_gho, g__OTU_e0q_dyo, g__OTU_e1f_tqe, g__OTU_e21_cmv, g__OTU_e8x_8cs, g__OTU_eci_bpv, g__OTU_eem_cim, g__OTU_enn_p0v, g__OTU_eoz_tje, g__OTU_eul_urh, g__OTU_eun_aak, g__OTU_ewn_b2j, g__OTU_ewt_eej, g__OTU_f0j_et1, g__OTU_f33_97w, g__OTU_f33_ga9, g__OTU_f36_5lx, g__OTU_f6r_e32, g__OTU_fc6_q94, g__OTU_fca_qaa, g__OTU_fda_cel, g__OTU_fgr_8yq, g__OTU_fmp_cvp, g__OTU_fne_mf7, g__OTU_fnx_z4u, g__OTU_fox_565, g__OTU_fso_t0j, g__OTU_fue_mw8, g__OTU_g1s_hew, g__OTU_g2p_ri9, g__OTU_g3e_9or, g__OTU_g4n_9nm, g__OTU_g52_8e4, g__OTU_g8o_q5o, g__OTU_gch_li9, g__OTU_gio_j69, g__OTU_glc_d61, g__OTU_gq5_525, g__OTU_h2i_y0b, g__OTU_h36_sb4, g__OTU_h40_44m, g__OTU_h8c_5za, g__OTU_ha7_18d, g__OTU_hh9_ouj, g__OTU_hhv_ono, g__OTU_hjk_8h2, g__OTU_hjm_jhx, g__OTU_hjn_92c, g__OTU_hli_uic, g__OTU_hom_hqu, g__OTU_hqi_wys, g__OTU_hvf_hl6, g__OTU_hw5_ymt, g__OTU_hxl_28w, g__OTU_hxp_06h, g__OTU_hyj_72f, g__OTU_i0f_qt6, g__OTU_i1i_03e, g__OTU_i1t_alf, g__OTU_i2m_rle, g__OTU_i3r_e7o, g__OTU_i4t_xi8, g__OTU_idg_9of, g__OTU_igr_78a, g__OTU_ipi_5lj, g__OTU_ivz_iap, g__OTU_j07_yqd, g__OTU_j9h_3yb, g__OTU_jcx_to7, g__OTU_jg3_wy1, g__OTU_jgw_b02, g__OTU_jhy_il4, g__OTU_jif_57i, g__OTU_jjw_h6c, g__OTU_jn2_gak, g__OTU_jp2_wik, g__OTU_jsp_5uo, g__OTU_jt8_946, g__OTU_jus_i6u, g__OTU_k0h_xn5, g__OTU_k1t_uo6, g__OTU_k2i_i3s, g__OTU_k3w_l37, g__OTU_k4d_gbe, g__OTU_k8g_uvj, g__OTU_kbw_7bv, g__OTU_ke8_mjz, g__OTU_kf5_5tm, g__OTU_khc_plo, g__OTU_koe_l7b, g__OTU_kol_a3i, g__OTU_kp7_w4p, g__OTU_l9c_qh8, g__OTU_lae_ih6, g__OTU_ldy_j1x, g__OTU_lex_7ra, g__OTU_lfn_4vc, g__OTU_lgw_a5i, g__OTU_lht_ij5, g__OTU_lie_qei, g__OTU_lju_px0, g__OTU_luy_6m4, g__OTU_lz6_bn9, g__OTU_m31_j0m, g__OTU_m4p_m0a, g__OTU_m5j_mmm, g__OTU_mcj_7tq, g__OTU_mnp_2s5, g__OTU_mok_62y, g__OTU_mp6_b9g, g__OTU_muj_yal, g__OTU_mw7_l5j, g__OTU_mwk_ng4, g__OTU_mxw_dfk, g__OTU_mxw_pws, g__OTU_n28_h1p, g__OTU_n3o_mqm, g__OTU_naq_qnd, g__OTU_nd0_b8a, g__OTU_net_jrz, g__OTU_ngs_4f2, g__OTU_nl6_6dn, g__OTU_nmw_igw, g__OTU_nn5_hh0, g__OTU_nop_ugv, g__OTU_npu_4sg, g__OTU_nrr_8gu, g__OTU_nru_18d, g__OTU_nts_e47, g__OTU_nuu_tu1, g__OTU_nuz_hqa, g__OTU_nxt_tt8, g__OTU_nzq_q81, g__OTU_o15_5eu, g__OTU_o5d_wy6, g__OTU_o6a_nxa, g__OTU_o7z_mil, g__OTU_oah_yb1, g__OTU_oiw_4s0, g__OTU_okp_5el, g__OTU_onu_lx6, g__OTU_oqk_64r, g__OTU_osm_3hd, g__OTU_otp_ykk, g__OTU_oxg_7gm, g__OTU_oz3_dpz, g__OTU_ozp_6ca, g__OTU_ozw_pr3, g__OTU_p16_4m4, g__OTU_p36_mqk, g__OTU_p73_6mi, g__OTU_p7o_gkz, g__OTU_p9s_wro, g__OTU_pae_q1t, g__OTU_paz_uyl, g__OTU_pfb_w5b, g__OTU_pov_tej, g__OTU_pru_6v7, g__OTU_pul_wqe, g__OTU_q2w_hyh, g__OTU_q9s_gn7, g__OTU_qew_u61, g__OTU_qfa_nhv, g__OTU_qfb_98q, g__OTU_qhj_6p6, g__OTU_qmn_i67, g__OTU_qzb_w4a, g__OTU_r4e_hc2, g__OTU_r6h_qjn, g__OTU_rad_x3w, g__OTU_re7_pv7, g__OTU_rfz_r7s, g__OTU_rhx_x5c, g__OTU_rom_wf4, g__OTU_rom_zcc, g__OTU_rpm_w5l, g__OTU_rqu_b4u, g__OTU_rt1_24r, g__OTU_rtx_tpz, g__OTU_rzb_pr6, g__OTU_s1q_od5, g__OTU_s3z_60w, g__OTU_s86_du7, g__OTU_sbp_rlf, g__OTU_scw_d1g, g__OTU_ska_lwh, g__OTU_suz_taa, g__OTU_svf_bou, g__OTU_swx_c67, g__OTU_tay_jl8, g__OTU_tf3_vb6, g__OTU_tt9_51w, g__OTU_ttz_x7a, g__OTU_v92_ttn, g__OTU_wlu_7oj, g__OTU_zzl_zx7
+2024-04-14 21:38:39.90675 INFO::Total filtered features with variance filtering: 0
+2024-04-14 21:38:39.909344 INFO::Filtered feature names from variance filtering:
+2024-04-14 21:38:39.911963 INFO::Running selected normalization method: TSS
+2024-04-14 21:38:39.925146 INFO::Applying z-score to standardize continuous metadata
+2024-04-14 21:38:39.956194 INFO::Running selected transform method: LOG
+2024-04-14 21:38:39.966309 INFO::Running selected analysis method: LM
+2024-04-14 21:38:39.969609 INFO::Fitting model to feature number 1, g__OTU_12j_tx3
+2024-04-14 21:38:39.973591 INFO::Fitting model to feature number 2, g__OTU_147_hu9
+2024-04-14 21:38:39.978068 INFO::Fitting model to feature number 3, g__OTU_15c_vgr
+2024-04-14 21:38:39.982009 INFO::Fitting model to feature number 4, g__OTU_170_x4p
+2024-04-14 21:38:39.986216 INFO::Fitting model to feature number 5, g__OTU_171_m9u
+2024-04-14 21:38:39.989832 INFO::Fitting model to feature number 6, g__OTU_177_6lv
+2024-04-14 21:38:39.993414 INFO::Fitting model to feature number 7, g__OTU_19b_4z3
+2024-04-14 21:38:39.996779 INFO::Fitting model to feature number 8, g__OTU_19n_89a
+2024-04-14 21:38:39.999925 INFO::Fitting model to feature number 9, g__OTU_1da_5ga
+2024-04-14 21:38:40.003419 INFO::Fitting model to feature number 10, g__OTU_1do_kho
+2024-04-14 21:38:40.007641 INFO::Fitting model to feature number 11, g__OTU_1en_ate
+2024-04-14 21:38:40.032135 INFO::Fitting model to feature number 12, g__OTU_1gu_aka
+2024-04-14 21:38:40.036412 INFO::Fitting model to feature number 13, g__OTU_1jd_2zm
+2024-04-14 21:38:40.040487 INFO::Fitting model to feature number 14, g__OTU_1mh_382
+2024-04-14 21:38:40.044812 INFO::Fitting model to feature number 15, g__OTU_1x2_g2s
+2024-04-14 21:38:40.050247 INFO::Fitting model to feature number 16, g__OTU_23e_b2z
+2024-04-14 21:38:40.054035 INFO::Fitting model to feature number 17, g__OTU_2b0_mhp
+2024-04-14 21:38:40.058093 INFO::Fitting model to feature number 18, g__OTU_2b8_f91
+2024-04-14 21:38:40.062009 INFO::Fitting model to feature number 19, g__OTU_2fn_wmd
+2024-04-14 21:38:40.065814 INFO::Fitting model to feature number 20, g__OTU_2gc_6d1
+2024-04-14 21:38:40.070791 INFO::Fitting model to feature number 21, g__OTU_2o2_6yo
+2024-04-14 21:38:40.075074 INFO::Fitting model to feature number 22, g__OTU_2xj_7om
+2024-04-14 21:38:40.080915 INFO::Fitting model to feature number 23, g__OTU_2zk_0a2
+2024-04-14 21:38:40.084721 INFO::Fitting model to feature number 24, g__OTU_30c_wq6
+2024-04-14 21:38:40.089248 INFO::Fitting model to feature number 25, g__OTU_33s_05v
+2024-04-14 21:38:40.094109 INFO::Fitting model to feature number 26, g__OTU_364_bfm
+2024-04-14 21:38:40.099421 INFO::Fitting model to feature number 27, g__OTU_38z_b67
+2024-04-14 21:38:40.10345 INFO::Fitting model to feature number 28, g__OTU_3hx_aml
+2024-04-14 21:38:40.108011 INFO::Fitting model to feature number 29, g__OTU_3k9_a18
+2024-04-14 21:38:40.110255 INFO::Fitting model to feature number 30, g__OTU_3os_wud
+2024-04-14 21:38:40.113964 INFO::Fitting model to feature number 31, g__OTU_3rf_dcf
+2024-04-14 21:38:40.118349 INFO::Fitting model to feature number 32, g__OTU_47l_syc
+2024-04-14 21:38:40.12423 INFO::Fitting model to feature number 33, g__OTU_49a_0th
+2024-04-14 21:38:40.127815 INFO::Fitting model to feature number 34, g__OTU_4c7_3lf
+2024-04-14 21:38:40.131615 INFO::Fitting model to feature number 35, g__OTU_4de_dyo
+2024-04-14 21:38:40.1354 INFO::Fitting model to feature number 36, g__OTU_4hu_3g5
+2024-04-14 21:38:40.139526 INFO::Fitting model to feature number 37, g__OTU_4ir_ttn
+2024-04-14 21:38:40.143204 INFO::Fitting model to feature number 38, g__OTU_4ky_rdr
+2024-04-14 21:38:40.146849 INFO::Fitting model to feature number 39, g__OTU_4ls_8y5
+2024-04-14 21:38:40.150465 INFO::Fitting model to feature number 40, g__OTU_4py_s5r
+2024-04-14 21:38:40.154803 INFO::Fitting model to feature number 41, g__OTU_4tu_e1b
+2024-04-14 21:38:40.158855 INFO::Fitting model to feature number 42, g__OTU_4yr_btu
+2024-04-14 21:38:40.162924 INFO::Fitting model to feature number 43, g__OTU_534_hgg
+2024-04-14 21:38:40.167237 INFO::Fitting model to feature number 44, g__OTU_53w_9iz
+2024-04-14 21:38:40.189561 INFO::Fitting model to feature number 45, g__OTU_595_pm5
+2024-04-14 21:38:40.193399 INFO::Fitting model to feature number 46, g__OTU_5dc_i49
+2024-04-14 21:38:40.196946 INFO::Fitting model to feature number 47, g__OTU_5fi_h78
+2024-04-14 21:38:40.200448 INFO::Fitting model to feature number 48, g__OTU_5pb_7dy
+2024-04-14 21:38:40.204504 INFO::Fitting model to feature number 49, g__OTU_5pi_2qx
+2024-04-14 21:38:40.208688 INFO::Fitting model to feature number 50, g__OTU_60r_7ke
+2024-04-14 21:38:40.212373 INFO::Fitting model to feature number 51, g__OTU_684_3ns
+2024-04-14 21:38:40.216387 INFO::Fitting model to feature number 52, g__OTU_69p_qym
+2024-04-14 21:38:40.220134 INFO::Fitting model to feature number 53, g__OTU_69x_367
+2024-04-14 21:38:40.223806 INFO::Fitting model to feature number 54, g__OTU_6ao_ui9
+2024-04-14 21:38:40.227985 INFO::Fitting model to feature number 55, g__OTU_6ej_r5n
+2024-04-14 21:38:40.231726 INFO::Fitting model to feature number 56, g__OTU_6fr_khd
+2024-04-14 21:38:40.235705 INFO::Fitting model to feature number 57, g__OTU_6kx_a1p
+2024-04-14 21:38:40.239539 INFO::Fitting model to feature number 58, g__OTU_6mh_jhi
+2024-04-14 21:38:40.243925 INFO::Fitting model to feature number 59, g__OTU_6t6_g6b
+2024-04-14 21:38:40.2477 INFO::Fitting model to feature number 60, g__OTU_6t8_n39
+2024-04-14 21:38:40.251913 INFO::Fitting model to feature number 61, g__OTU_6xb_5lw
+2024-04-14 21:38:40.255993 INFO::Fitting model to feature number 62, g__OTU_72z_98c
+2024-04-14 21:38:40.260036 INFO::Fitting model to feature number 63, g__OTU_75g_dn7
+2024-04-14 21:38:40.263666 INFO::Fitting model to feature number 64, g__OTU_7e8_zkt
+2024-04-14 21:38:40.267741 INFO::Fitting model to feature number 65, g__OTU_7er_wmy
+2024-04-14 21:38:40.271611 INFO::Fitting model to feature number 66, g__OTU_7ic_4dv
+2024-04-14 21:38:40.276013 INFO::Fitting model to feature number 67, g__OTU_7lh_yvd
+2024-04-14 21:38:40.280144 INFO::Fitting model to feature number 68, g__OTU_7nd_fo4
+2024-04-14 21:38:40.28393 INFO::Fitting model to feature number 69, g__OTU_7o2_uuz
+2024-04-14 21:38:40.287944 INFO::Fitting model to feature number 70, g__OTU_7vl_66b
+2024-04-14 21:38:40.291846 INFO::Fitting model to feature number 71, g__OTU_7xf_67e
+2024-04-14 21:38:40.295864 INFO::Fitting model to feature number 72, g__OTU_7xx_6nk
+2024-04-14 21:38:40.299987 INFO::Fitting model to feature number 73, g__OTU_82p_r33
+2024-04-14 21:38:40.303592 INFO::Fitting model to feature number 74, g__OTU_8kv_lo2
+2024-04-14 21:38:40.307781 INFO::Fitting model to feature number 75, g__OTU_8kx_41x
+2024-04-14 21:38:40.311617 INFO::Fitting model to feature number 76, g__OTU_8li_862
+2024-04-14 21:38:40.315515 INFO::Fitting model to feature number 77, g__OTU_8pf_2or
+2024-04-14 21:38:40.319358 INFO::Fitting model to feature number 78, g__OTU_8t5_u4l
+2024-04-14 21:38:40.323132 INFO::Fitting model to feature number 79, g__OTU_8tj_1vg
+2024-04-14 21:38:40.327187 INFO::Fitting model to feature number 80, g__OTU_8x0_j94
+2024-04-14 21:38:40.330732 INFO::Fitting model to feature number 81, g__OTU_94q_x95
+2024-04-14 21:38:40.334786 INFO::Fitting model to feature number 82, g__OTU_9dc_cz6
+2024-04-14 21:38:40.338653 INFO::Fitting model to feature number 83, g__OTU_9l0_247
+2024-04-14 21:38:40.342976 INFO::Fitting model to feature number 84, g__OTU_9l6_viz
+2024-04-14 21:38:40.373806 INFO::Fitting model to feature number 85, g__OTU_9n0_ar3
+2024-04-14 21:38:40.4047 INFO::Fitting model to feature number 86, g__OTU_9qp_ahy
+2024-04-14 21:38:40.418826 INFO::Fitting model to feature number 87, g__OTU_9r5_x6p
+2024-04-14 21:38:40.422795 INFO::Fitting model to feature number 88, g__OTU_a5i_svx
+2024-04-14 21:38:40.426715 INFO::Fitting model to feature number 89, g__OTU_acl_n7e
+2024-04-14 21:38:40.430596 INFO::Fitting model to feature number 90, g__OTU_alt_4oz
+2024-04-14 21:38:40.434817 INFO::Fitting model to feature number 91, g__OTU_aoh_md7
+2024-04-14 21:38:40.438688 INFO::Fitting model to feature number 92, g__OTU_aud_zon
+2024-04-14 21:38:40.442667 INFO::Fitting model to feature number 93, g__OTU_b09_jj8
+2024-04-14 21:38:40.446337 INFO::Fitting model to feature number 94, g__OTU_b3m_ugv
+2024-04-14 21:38:40.450484 INFO::Fitting model to feature number 95, g__OTU_b40_bb0
+2024-04-14 21:38:40.454249 INFO::Fitting model to feature number 96, g__OTU_bie_9ox
+2024-04-14 21:38:40.458409 INFO::Fitting model to feature number 97, g__OTU_bsj_9l3
+2024-04-14 21:38:40.462184 INFO::Fitting model to feature number 98, g__OTU_bvn_7tv
+2024-04-14 21:38:40.466351 INFO::Fitting model to feature number 99, g__OTU_c68_5vk
+2024-04-14 21:38:40.470275 INFO::Fitting model to feature number 100, g__OTU_ccp_sse
+2024-04-14 21:38:40.474199 INFO::Fitting model to feature number 101, g__OTU_cgg_3uv
+2024-04-14 21:38:40.478078 INFO::Fitting model to feature number 102, g__OTU_cjy_1f3
+2024-04-14 21:38:40.482162 INFO::Fitting model to feature number 103, g__OTU_ck6_ntu
+2024-04-14 21:38:40.485739 INFO::Fitting model to feature number 104, g__OTU_cns_p1y
+2024-04-14 21:38:40.504771 INFO::Fitting model to feature number 105, g__OTU_d01_dzt
+2024-04-14 21:38:40.509778 INFO::Fitting model to feature number 106, g__OTU_dd6_pyp
+2024-04-14 21:38:40.514324 INFO::Fitting model to feature number 107, g__OTU_df8_vdn
+2024-04-14 21:38:40.544446 INFO::Fitting model to feature number 108, g__OTU_dkd_0as
+2024-04-14 21:38:40.581396 INFO::Fitting model to feature number 109, g__OTU_dlu_i3z
+2024-04-14 21:38:40.599265 INFO::Fitting model to feature number 110, g__OTU_drs_0qb
+2024-04-14 21:38:40.60362 INFO::Fitting model to feature number 111, g__OTU_e5k_uqj
+2024-04-14 21:38:40.607269 INFO::Fitting model to feature number 112, g__OTU_edz_ix0
+2024-04-14 21:38:40.61133 INFO::Fitting model to feature number 113, g__OTU_eni_h32
+2024-04-14 21:38:40.615959 INFO::Fitting model to feature number 114, g__OTU_eww_tb1
+2024-04-14 21:38:40.621005 INFO::Fitting model to feature number 115, g__OTU_f9v_2jn
+2024-04-14 21:38:40.625082 INFO::Fitting model to feature number 116, g__OTU_fcf_8nc
+2024-04-14 21:38:40.629073 INFO::Fitting model to feature number 117, g__OTU_fe5_g8a
+2024-04-14 21:38:40.633351 INFO::Fitting model to feature number 118, g__OTU_fep_klg
+2024-04-14 21:38:40.638203 INFO::Fitting model to feature number 119, g__OTU_fjz_94m
+2024-04-14 21:38:40.641956 INFO::Fitting model to feature number 120, g__OTU_fsy_s1o
+2024-04-14 21:38:40.647212 INFO::Fitting model to feature number 121, g__OTU_g6t_oxk
+2024-04-14 21:38:40.651114 INFO::Fitting model to feature number 122, g__OTU_g8f_fqs
+2024-04-14 21:38:40.654926 INFO::Fitting model to feature number 123, g__OTU_gai_fsy
+2024-04-14 21:38:40.659079 INFO::Fitting model to feature number 124, g__OTU_gb5_l4s
+2024-04-14 21:38:40.663572 INFO::Fitting model to feature number 125, g__OTU_gek_29n
+2024-04-14 21:38:40.667844 INFO::Fitting model to feature number 126, g__OTU_go0_1n6
+2024-04-14 21:38:40.67182 INFO::Fitting model to feature number 127, g__OTU_gr5_393
+2024-04-14 21:38:40.675808 INFO::Fitting model to feature number 128, g__OTU_grv_e2l
+2024-04-14 21:38:40.680094 INFO::Fitting model to feature number 129, g__OTU_gt2_tpx
+2024-04-14 21:38:40.684313 INFO::Fitting model to feature number 130, g__OTU_gzb_mis
+2024-04-14 21:38:40.687961 INFO::Fitting model to feature number 131, g__OTU_h5n_ob0
+2024-04-14 21:38:40.691747 INFO::Fitting model to feature number 132, g__OTU_hge_csd
+2024-04-14 21:38:40.696262 INFO::Fitting model to feature number 133, g__OTU_hxt_g1v
+2024-04-14 21:38:40.701398 INFO::Fitting model to feature number 134, g__OTU_hzj_d4f
+2024-04-14 21:38:40.705312 INFO::Fitting model to feature number 135, g__OTU_ik4_yoo
+2024-04-14 21:38:40.709784 INFO::Fitting model to feature number 136, g__OTU_j2i_6v4
+2024-04-14 21:38:40.740749 INFO::Fitting model to feature number 137, g__OTU_j2r_7zv
+2024-04-14 21:38:40.763851 INFO::Fitting model to feature number 138, g__OTU_j4j_kfv
+2024-04-14 21:38:40.76831 INFO::Fitting model to feature number 139, g__OTU_j82_mq3
+2024-04-14 21:38:40.772735 INFO::Fitting model to feature number 140, g__OTU_jnc_9aj
+2024-04-14 21:38:40.776762 INFO::Fitting model to feature number 141, g__OTU_jvv_aco
+2024-04-14 21:38:40.780479 INFO::Fitting model to feature number 142, g__OTU_jyd_ob7
+2024-04-14 21:38:40.784421 INFO::Fitting model to feature number 143, g__OTU_jyp_8n8
+2024-04-14 21:38:40.788034 INFO::Fitting model to feature number 144, g__OTU_jyr_2wo
+2024-04-14 21:38:40.791989 INFO::Fitting model to feature number 145, g__OTU_k39_6zl
+2024-04-14 21:38:40.796316 INFO::Fitting model to feature number 146, g__OTU_k92_198
+2024-04-14 21:38:40.802295 INFO::Fitting model to feature number 147, g__OTU_kg4_svp
+2024-04-14 21:38:40.811943 INFO::Fitting model to feature number 148, g__OTU_klc_hti
+2024-04-14 21:38:40.818034 INFO::Fitting model to feature number 149, g__OTU_l3v_8mp
+2024-04-14 21:38:40.821806 INFO::Fitting model to feature number 150, g__OTU_lpt_rsv
+2024-04-14 21:38:40.825677 INFO::Fitting model to feature number 151, g__OTU_luw_wc0
+2024-04-14 21:38:40.829469 INFO::Fitting model to feature number 152, g__OTU_m3t_7yb
+2024-04-14 21:38:40.858977 INFO::Fitting model to feature number 153, g__OTU_m96_7wk
+2024-04-14 21:38:40.863199 INFO::Fitting model to feature number 154, g__OTU_m9p_86n
+2024-04-14 21:38:40.867573 INFO::Fitting model to feature number 155, g__OTU_mn8_t5t
+2024-04-14 21:38:40.869548 INFO::Fitting model to feature number 156, g__OTU_mpf_nq1
+2024-04-14 21:38:40.871848 INFO::Fitting model to feature number 157, g__OTU_mst_wi2
+2024-04-14 21:38:40.873646 INFO::Fitting model to feature number 158, g__OTU_mxa_u54
+2024-04-14 21:38:40.875407 INFO::Fitting model to feature number 159, g__OTU_n3k_04w
+2024-04-14 21:38:40.877355 INFO::Fitting model to feature number 160, g__OTU_ncd_y44
+2024-04-14 21:38:40.879889 INFO::Fitting model to feature number 161, g__OTU_nk8_8eo
+2024-04-14 21:38:40.881764 INFO::Fitting model to feature number 162, g__OTU_npw_zoi
+2024-04-14 21:38:40.885011 INFO::Fitting model to feature number 163, g__OTU_nx0_euh
+2024-04-14 21:38:40.889264 INFO::Fitting model to feature number 164, g__OTU_o3u_kjg
+2024-04-14 21:38:40.893226 INFO::Fitting model to feature number 165, g__OTU_ods_x7z
+2024-04-14 21:38:40.896651 INFO::Fitting model to feature number 166, g__OTU_p3w_2j5
+2024-04-14 21:38:40.900032 INFO::Fitting model to feature number 167, g__OTU_pa7_ht8
+2024-04-14 21:38:40.903385 INFO::Fitting model to feature number 168, g__OTU_pm2_9oj
+2024-04-14 21:38:40.93326 INFO::Fitting model to feature number 169, g__OTU_pn9_xxt
+2024-04-14 21:38:40.937332 INFO::Fitting model to feature number 170, g__OTU_poy_9l2
+2024-04-14 21:38:40.940815 INFO::Fitting model to feature number 171, g__OTU_pwm_uzw
+2024-04-14 21:38:40.944321 INFO::Fitting model to feature number 172, g__OTU_pxk_1ex
+2024-04-14 21:38:40.948116 INFO::Fitting model to feature number 173, g__OTU_pzy_n70
+2024-04-14 21:38:40.952118 INFO::Fitting model to feature number 174, g__OTU_q85_krf
+2024-04-14 21:38:40.956342 INFO::Fitting model to feature number 175, g__OTU_qjl_t4r
+2024-04-14 21:38:40.960626 INFO::Fitting model to feature number 176, g__OTU_qqe_rgk
+2024-04-14 21:38:40.964454 INFO::Fitting model to feature number 177, g__OTU_r4i_7g9
+2024-04-14 21:38:40.968044 INFO::Fitting model to feature number 178, g__OTU_r6w_x3u
+2024-04-14 21:38:40.971537 INFO::Fitting model to feature number 179, g__OTU_rbe_ww5
+2024-04-14 21:38:40.975466 INFO::Fitting model to feature number 180, g__OTU_s1y_zg0
+2024-04-14 21:38:40.979735 INFO::Fitting model to feature number 181, g__OTU_s93_18j
+2024-04-14 21:38:40.994273 INFO::Fitting model to feature number 182, g__OTU_shc_rb5
+2024-04-14 21:38:40.998368 INFO::Fitting model to feature number 183, g__OTU_sj2_yh2
+2024-04-14 21:38:41.002632 INFO::Fitting model to feature number 184, g__OTU_sj9_cdm
+2024-04-14 21:38:41.006816 INFO::Fitting model to feature number 185, g__OTU_smr_5tq
+2024-04-14 21:38:41.010548 INFO::Fitting model to feature number 186, g__OTU_syq_cmj
+2024-04-14 21:38:41.014188 INFO::Fitting model to feature number 187, g__OTU_t8z_21b
+2024-04-14 21:38:41.017751 INFO::Fitting model to feature number 188, g__OTU_ter_b2k
+2024-04-14 21:38:41.021562 INFO::Fitting model to feature number 189, g__OTU_tq6_57b
+2024-04-14 21:38:41.025761 INFO::Fitting model to feature number 190, g__OTU_ttw_nbx
+2024-04-14 21:38:41.051551 INFO::Counting total values for each feature
+2024-04-14 21:38:41.069195 INFO::Writing filtered data to file maaslin2_counts_tss_log/features/filtered_data.tsv
+2024-04-14 21:38:41.078613 INFO::Writing filtered, normalized data to file maaslin2_counts_tss_log/features/filtered_data_norm.tsv
+2024-04-14 21:38:41.088896 INFO::Writing filtered, normalized, transformed data to file maaslin2_counts_tss_log/features/filtered_data_norm_transformed.tsv
+2024-04-14 21:38:41.132164 INFO::Writing residuals to file maaslin2_counts_tss_log/fits/residuals.rds
+2024-04-14 21:38:41.138788 INFO::Writing fitted values to file maaslin2_counts_tss_log/fits/fitted.rds
+2024-04-14 21:38:41.14355 INFO::Writing all results to file (ordered by increasing q-values): maaslin2_counts_tss_log/all_results.tsv
+2024-04-14 21:38:41.149821 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): maaslin2_counts_tss_log/significant_results.tsv
+2024-04-14 21:38:41.151695 INFO::Writing heatmap of significant results to file: maaslin2_counts_tss_log/heatmap.pdf
+2024-04-14 21:38:41.180849 INFO::Writing association plots (one for each significant association) to output folder: maaslin2_counts_tss_log
+2024-04-14 21:38:41.183292 INFO::Plotting associations from most to least significant, grouped by metadata
+2024-04-14 21:38:41.186422 INFO::Plotting data for metadata number 1, Disease2
+2024-04-14 21:38:41.189911 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_6ej_r5n
+2024-04-14 21:38:41.288555 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_b3m_ugv
+2024-04-14 21:38:41.361909 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_nk8_8eo
+2024-04-14 21:38:41.435942 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_1gu_aka
+2024-04-14 21:38:41.530202 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_5pi_2qx
+2024-04-14 21:38:41.603252 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_s93_18j
+2024-04-14 21:38:41.695563 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_acl_n7e
+2024-04-14 21:38:41.79321 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_cgg_3uv
+2024-04-14 21:38:41.869076 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_hxt_g1v
+2024-04-14 21:38:41.946051 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_69p_qym
+2024-04-14 21:38:42.038539 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_aoh_md7
+2024-04-14 21:38:42.112217 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_m96_7wk
+2024-04-14 21:38:42.186588 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_lpt_rsv
+2024-04-14 21:38:42.286416 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_595_pm5
+2024-04-14 21:38:42.359247 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_g6t_oxk
+2024-04-14 21:38:42.432973 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_j2r_7zv
+2024-04-14 21:38:42.525263 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_grv_e2l
+2024-04-14 21:38:42.605869 INFO::Creating boxplot for categorical data, Disease2 vs g__OTU_hzj_d4f
+2024-04-14 21:38:43.441473 INFO::Plotting data for metadata number 2, Archaea_final
+2024-04-14 21:38:43.443068 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_m9p_86n
+2024-04-14 21:38:43.533337 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_170_x4p
+2024-04-14 21:38:43.603739 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_1jd_2zm
+2024-04-14 21:38:43.676642 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_5pi_2qx
+2024-04-14 21:38:43.764966 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_lpt_rsv
+2024-04-14 21:38:43.834575 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_2o2_6yo
+2024-04-14 21:38:43.90044 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_49a_0th
+2024-04-14 21:38:44.008201 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_fcf_8nc
+2024-04-14 21:38:44.072711 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_l3v_8mp
+2024-04-14 21:38:44.137214 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_g6t_oxk
+2024-04-14 21:38:44.227783 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_177_6lv
+2024-04-14 21:38:44.291996 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_4tu_e1b
+2024-04-14 21:38:44.357825 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_bsj_9l3
+2024-04-14 21:38:44.442673 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_ik4_yoo
+2024-04-14 21:38:44.509195 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_bie_9ox
+2024-04-14 21:38:44.573404 INFO::Creating boxplot for categorical data, Archaea_final vs g__OTU_klc_hti
+2024-04-14 21:38:45.350879 INFO::Plotting data for metadata number 3, Sample_classification
+2024-04-14 21:38:45.352361 INFO::Creating boxplot for categorical data, Sample_classification vs g__OTU_6ej_r5n

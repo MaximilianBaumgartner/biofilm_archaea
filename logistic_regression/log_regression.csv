@@ -1,0 +1,155 @@
+sample_ID	sex	age	disease	Archaea_final	Abx yes_no	PPI_yes_no	Probiotics_yes_no	experiment	endoscopic_biofilm
+JMF-1901-5-0106	w	40	UC	no	0	1	1	1	biofilm positive
+JMF-1901-5-0107	w	27	IBS-M/D	no	1	1	0	1	biofilm negative
+JMF-1901-5-0108	w	63	control	no		0	0	1	biofilm positive
+JMF-1901-5-0109	w	47	control	yes	0	0	0	1	biofilm positive
+JMF-1901-5-0110	m	41	IBS-M/D	no	0	0	0	1	biofilm positive
+JMF-1901-5-0112	m	51	control	no	0	0	0	1	biofilm negative
+JMF-1901-5-0113	w	37	UC	no	0	0	0	1	biofilm negative
+JMF-1901-5-0115	w	52	IBS-M/D	no				1	biofilm negative
+JMF-1901-5-0117	m	39	UC	no	0	0	0	1	biofilm negative
+JMF-1901-5-0119	w	56	UC	yes	1	0	1	1	biofilm negative
+JMF-1901-5-0120	m	17	UC	yes	1	0	1	1	biofilm positive
+JMF-1901-5-0121	m	41	IBS-M/D	no	1	1	0	1	biofilm positive
+JMF-1901-5-0128	m	64	control	yes	1	1	0	1	biofilm negative
+JMF-1901-5-0129	m	51	UC	no	0	0	0	1	biofilm negative
+JMF-1901-5-0130	w	49	IBS-M/D	no	0	1	0	1	biofilm negative
+JMF-1901-5-0132	w	65	IBS-M/D	no	1	1	0	1	biofilm negative
+JMF-1901-5-0133	w	54	UC	yes	1	0	0	1	biofilm positive
+JMF-1901-5-0134	m	37	control	no		0	0	1	biofilm negative
+JMF-1901-5-0136	w	46	IBS-C	yes	1	0	0	1	biofilm negative
+JMF-1901-5-0137	m	63	UC	no		0	0	1	biofilm positive
+JMF-1901-5-0139	w	52	IBS-M/D	no	0	1	0	1	biofilm negative
+JMF-1901-5-0140	m	62	UC	no	1	0	0	1	biofilm positive
+JMF-1901-5-0141	m	26	UC	no	1	0	0	1	biofilm negative
+JMF-1901-5-0142	w	67	IBS-M/D	no	1	1		1	biofilm positive
+JMF-1901-5-0143	m	41	IBS-M/D	yes	1		0	1	biofilm negative
+JMF-1901-5-0144	w	20	UC	no	0	0	1	1	biofilm positive
+JMF-1901-5-0145	w	49	control	no	0		0	1	biofilm negative
+JMF-1901-5-0148	m	19	IBS-M/D	no	1	0	0	1	biofilm positive
+JMF-1901-5-0150	m	20	IBS-M/D	no	1	0	1	1	biofilm positive
+JMF-1901-5-0151	w	58	IBS-M/D	no	1	1	0	1	biofilm negative
+JMF-1901-5-0152	w	62	IBS-M/D	yes	1	0	0	1	biofilm positive
+JMF-1901-5-0154	m	79	UC	yes		1	0	1	biofilm positive
+JMF-1901-5-0183	w	64	control	yes	1	0	0	1	biofilm positive
+JMF-1901-5-0184	w	50	IBS-C	yes	0			1	biofilm negative
+JMF-1910-2-0002	w	43	IBS-M/D	yes	1		0	1	biofilm negative
+JMF-1910-2-0003	w	62	IBS-M/D	no	1		1	1	biofilm negative
+JMF-1910-2-0007	m	65	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0009	m	43	IBS-M/D	no	0	0	1	1	biofilm positive
+JMF-1910-2-0011	w	31	UC	no	0	0	0	1	biofilm negative
+JMF-1910-2-0012	w	48	IBS-M/D	no	0	0	0	1	biofilm negative
+JMF-1910-2-0013	m	25	IBS-M/D	yes	1	0	0	1	biofilm positive
+JMF-1910-2-0014	w	22	IBS-M/D	no	1	1	1	1	biofilm positive
+JMF-1910-2-0015	w	56	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0017	w	36	IBS-M/D	no	1	1	1	1	biofilm positive
+JMF-1910-2-0018	w	70	IBS-M/D	no	1	1	0	1	biofilm positive
+JMF-1910-2-0019	w	50	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0020	w	38	control	no	1	0	0	1	biofilm negative
+JMF-1910-2-0021	w	56	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0023	w	43	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0025	m	32	IBS-M/D	no	0	0	0	1	biofilm negative
+JMF-1910-2-0026	w	76	IBS-M/D	no	0	0	0	1	biofilm positive
+JMF-1910-2-0027	m	57	control	no	0	1	0	1	biofilm positive
+JMF-1910-2-0028	m	54	control	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0029	w	41	IBS-M/D	no	1	1	1	1	biofilm negative
+JMF-1910-2-0090	m	58	control	no	0	1	0	1	biofilm negative
+JMF-1910-2-0091	w	31	IBS-M/D	no	1	0	1	1	biofilm positive
+JMF-1910-2-0093	m	50	IBS-C	no	1	1	0	1	biofilm negative
+JMF-1910-2-0094	w	30	IBS-M/D	yes	0	0	0	1	biofilm negative
+JMF-1910-2-0095	m	39	IBS-M/D	no	1	0	0	1	biofilm positive
+JMF-1910-2-0096	w	61	control	no				1	biofilm negative
+JMF-1901-5-0157	w	71	UC	no	1	1	1	1	biofilm positive
+JMF-1910-2-0031	w	43	IBS-M/D	yes	1	0	0	1	biofilm positive
+JMF-1910-2-0032	w	55	IBS-M/D	yes	1	1	0	1	biofilm positive
+JMF-1910-2-0033	w	56	IBS-M/D	no	1	1	0	1	biofilm positive
+JMF-1910-2-0034	w	47	IBS-M/D	no	0	1	0	1	biofilm positive
+JMF-1910-2-0035	w	52	control	no			0	1	biofilm positive
+JMF-1910-2-0036	w	35	IBS-M/D	yes	1	1	0	1	biofilm positive
+JMF-1910-2-0037	w	56	control	yes	1	1	0	1	biofilm negative
+JMF-1910-2-0038	w	32	control	no	1	0	0	1	biofilm negative
+JMF-1910-2-0039	w	66	IBS-M/D	no	1	0	1	1	biofilm positive
+JMF-1910-2-0099	m	43	control	no	1	1	0	1	biofilm positive
+JMF-1910-2-0103	m	63	control	no				1	biofilm negative
+JMF-1901-5-0158	m	39	UC	yes	1	1	0	1	biofilm negative
+JMF-1901-5-0161	m	39	UC	no	1	0	1	1	biofilm positive
+JMF-1901-5-0163	m	43	control	no	0	1	0	1	biofilm positive
+JMF-1901-5-0164	m	28	IBS-M/D	yes	0	1	0	1	biofilm positive
+Fx101_S42			IBS-M/D	no				2	biofilm negative
+Fx102_S54			IBS-M/D	no				2	biofilm positive
+Fx103_S65			IBS-M/D	yes				2	biofilm positive
+Fx104_S76			IBS-M/D	no				2	biofilm positive
+Fx105_S87			control	yes				2	biofilm positive
+Fx106_S10			IBS-M/D	yes				2	biofilm positive
+Fx108_S21			IBS-M/D	no				2	biofilm positive
+Fx109_S32			IBS-M/D	no				2	biofilm positive
+Fx110_S43			control	yes				2	biofilm negative
+Fx111_S55			UC	no				2	biofilm positive
+Fx112_S66			UC	no				2	biofilm positive
+Fx113_S77			control	no				2	biofilm negative
+Fx115_S88			control	yes				2	biofilm negative
+Fx116_S11			IBS-M/D	yes				2	biofilm negative
+Fx117_S22			IBS-M/D	no				2	biofilm negative
+Fx118_S33			control	no				2	biofilm negative
+Fx119_S90			control	no				2	biofilm positive
+P103_S145	f	42	IBS-C	no				2	biofilm positive
+P104_S151	f	25	IBS-M/D	no				2	biofilm positive
+P105_S104	m	35	IBS-M/D	yes				2	biofilm positive
+P108_S112	m	55	IBS-M/D	yes				2	biofilm positive
+P13_S98	m	74	IBS-M/D	no	1	1	0	2	biofilm positive
+P24_S106	f	46	IBS-C	no				2	biofilm positive
+P26_S114	f	36	IBS-M/D	no				2	biofilm negative
+P29_S121	f	53	IBS-C	no	1	1	0	2	biofilm negative
+P30_S128	m	23	IBS-M/D	yes	1	1	0	2	biofilm negative
+P32_S134	m	33	IBS-C	no	1	1	0	2	biofilm negative
+P36_S140	m	66	IBS-M/D	no				2	biofilm positive
+P37_S146	m	57	IBS-C	no	1	0	1	2	biofilm positive
+P39_S99	f	20	IBS-M/D	no	1	0	1	2	biofilm positive
+P41_S107	f	50	IBS-C	yes	1	0	0	2	biofilm negative
+P45_S115	m	64	IBS-C	yes	1	1	0	2	biofilm positive
+P46_S122	f	67	IBS-C	no	1	1	1	2	biofilm positive
+P49_S129	f	54	IBS-C	no	1	0	1	2	biofilm negative
+P52_S135	m	40	IBS-M/D	yes	1	0	0	2	biofilm positive
+P53_S141	m	29	IBS-M/D	no	1	1	1	2	biofilm positive
+P54_S147	f	50	IBS-C	no	1	1	0	2	biofilm negative
+P55_S100	f	53	control	no	0	0	0	2	biofilm positive
+P57_S108	f	70	control	yes	1	1	1	2	biofilm negative
+P58_S116	f	39	IBS-C	no	1	0	1	2	biofilm negative
+P59_S123	f	72	control	no	1	1	1	2	biofilm negative
+P61_S130	f	67	IBS-M/D	yes				2	biofilm negative
+P62_S136	m	34	IBS-M/D	no				2	biofilm positive
+P64_S142	m	82	IBS-C	yes	0	0	1	2	biofilm negative
+P65_S148	f	66	IBS-M/D	no	1	0	1	2	biofilm positive
+P67_S101	f	80	IBS-M/D	yes	1	0	1	2	biofilm positive
+P68_S109	m	65	IBS-M/D	no	1	1	1	2	biofilm negative
+P69_S117	f	63	control	yes	1	1	0	2	biofilm negative
+P70_S124	f	23	IBS-M/D	yes	0	1	1	2	biofilm negative
+P73_S131	f	42	IBS-C	yes				2	biofilm positive
+P74_S137	f	57	IBS-M/D	no	1	1	0	2	biofilm negative
+P75_S143	f	50	IBS-M/D	no	1	0	0	2	biofilm negative
+P79_S149	f	71	IBS-M/D	no	1	1	0	2	biofilm positive
+P80_S102	f	54	control	no	1	0	0	2	biofilm positive
+P81_S110	m	31	IBS-M/D	yes	1	1	1	2	biofilm positive
+P82_S118	m	36	IBS-M/D	no				2	biofilm positive
+P84_S125	f	67	IBS-M/D	no	1	0	1	2	biofilm positive
+P85_S132	f	40	IBS-M/D	no	1	1	0	2	biofilm positive
+P86_S138	f	68	IBS-M/D	no	0	0	0	2	biofilm positive
+P87_S144	m	29	IBS-M/D	no	1	0	0	2	biofilm positive
+P89_S150	m	39	control	no				2	biofilm negative
+P90_S103	m	49	IBS-M/D	no				2	biofilm positive
+P91_S111	f	33	IBS-C	no	1	1	0	2	biofilm negative
+P92_S119	m	52	IBS-C	yes				2	biofilm positive
+P93_S126	m	49	IBS-C	no	1	1	1	2	biofilm negative
+P95_S133	m	82	control	yes	1	0	0	2	biofilm positive
+P96_S139	m	53	IBS-C	no	1	0	0	2	biofilm positive
+FxR27_S44			control	no				2	biofilm negative
+FxR30_S67			IBS-C	no				2	biofilm positive
+FxR31_S78			IBS-M/D	no				2	biofilm positive
+FxR32_S89			control	no				2	biofilm negative
+FxR34_S12			control	yes				2	biofilm positive
+FxR35_S23			IBS-M/D	no				2	biofilm positive
+FxR36_S34			IBS-M/D	no				2	biofilm positive
+FxR37_S45			control	yes				2	biofilm negative
+FxR38_S56			IBS-M/D	no				2	biofilm positive
+FxR40_S68			IBS-M/D	no				2	biofilm positive
+FxR41_S79			IBS-M/D	no				2	biofilm positive
